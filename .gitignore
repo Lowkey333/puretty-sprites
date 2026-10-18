@@ -1,5 +1,5 @@
 # Portable LibreSprite builds (download them, see README "From a fresh clone")
-tools/
+/tools/
 
 # Python
 .venv/
