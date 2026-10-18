@@ -103,17 +103,3 @@ Tested here end to end, all local: a 3D-style concept from ComfyUI, **TRELLIS.2*
 
 The auto-rig finds the joints on the model's silhouette, and with ComfyUI running it also asks DWPose about a front render: the realistic adventurer in `examples/hero` got its joints from DWPose, while the chibi witch (DWPose can't make sense of her proportions) got them from the silhouette. It skins with Blender's heat weights computed on a watertight copy of the mesh, so the witch's robe stretches with her legs instead of tearing, and poses the animations so the feet stay on the ground: Idle, Walk, Run, Attack, Cast, Hit, Death and Jump. It returns a picture of the skeleton over the model; `landmarks` moves a joint that's off. `blender_add_animation` then puts real motion capture on the same rig, from Mixamo or the free CMU database: on the adventurer a boxing combo, a roundhouse kick and a backward fall came through cleanly, about 2 seconds per clip. For hand-animated or production-quality motion, Mixamo's own rig and Rigify are still better. See [integrations/blender/README.md](integrations/blender/README.md).
 
-## What this set-up changed on this computer
-
-| Where | What | Undo |
-|---|---|---|
-| `C:\AI\Puretty-sprites` | Everything above, including portable LibreSprite in `tools\` | Delete the folder |
-| `C:\AI\ComfyUI` | ComfyUI, its Python environment, custom nodes and models (about 32 GB) | Delete the folder |
-| `%APPDATA%\krita\pykrita\` | `puretty_bridge` and `ai_diffusion` (Krita AI Diffusion 1.53.0) plugins | `python integrations\krita\install.py --uninstall --with-ai-diffusion` (Krita closed) |
-| `%LOCALAPPDATA%\kritarc` | `[python]` keys enabling both plugins; backups in `kritarc.bak-*` (the oldest is the original) | Done by the uninstall above, or copy the oldest backup back |
-| `%APPDATA%\krita\ai_diffusion\settings.json` | Server set to the external ComfyUI at 127.0.0.1:8188 | Copy `settings.json.bak-20261018` back |
-| `%APPDATA%\Blender Foundation\Blender\5.2\` | The MCP for Blender add-on (`scripts\addons\blender_mcp.py`), enabled in `config\userpref.blend` | Disable it in Edit > Preferences > Add-ons and delete the file |
-| `%APPDATA%\LibreSprite\` | LibreSprite's own settings, created when it first ran | Delete the folder |
-| uv cache | The `mcp-for-blender` package | `uv cache clean mcp-for-blender` |
-
-Nothing system-wide (no installers, no admin rights).
