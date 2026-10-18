@@ -1,0 +1,18 @@
+{
+  "mcpServers": {
+    "libresprite": {
+      "type": "stdio",
+      "command": "uv",
+      "args": ["--directory", "libresprite-mcp", "run", "libresprite-mcp"],
+      "env": {}
+    },
+    "blender": {
+      "type": "stdio",
+      "command": "uvx",
+      "args": ["mcp-for-blender"],
+      "env": {
+        "DISABLE_TELEMETRY": "true"
+      }
+    }
+  }
+}

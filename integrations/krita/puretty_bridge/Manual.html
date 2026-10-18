@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head><meta charset="utf-8"><title>Puretty Bridge</title></head>
+<body>
+<h3>Puretty Bridge</h3>
+<p>Lets local AI tools drive Krita: the <code>krita_*</code> tools of the libresprite-mcp
+server can create and open documents, add images as layers, look at the canvas,
+export it and run Python here, while you keep painting in the same window.</p>
+<p>It listens on <b>127.0.0.1</b> only (port 8765, or the next free port; set
+<code>PURETTY_BRIDGE_PORT</code> to change it). Each Krita session writes its port and a
+random token to <code>puretty_bridge.json</code> in Krita's app-data folder; requests
+without that token are refused. The file is removed when Krita quits.</p>
+<p><b>Tools &gt; Scripts &gt; Puretty Bridge Status</b> shows the port it is using.</p>
+<p>The <code>run_python</code> command runs any Python code inside Krita, like
+Krita's Scripter. Disable this plugin in Settings &gt; Configure Krita &gt; Python Plugin
+Manager when you don't want local tools to control Krita.</p>
+</body>
+</html>

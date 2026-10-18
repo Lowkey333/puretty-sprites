@@ -1,0 +1,133 @@
+{
+ "frames": [
+  {
+   "filename": "witch 0.ase",
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 128,
+    "h": 128
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 128,
+    "h": 128
+   },
+   "sourceSize": {
+    "w": 128,
+    "h": 128
+   },
+   "duration": 180
+  },
+  {
+   "filename": "witch 1.ase",
+   "frame": {
+    "x": 128,
+    "y": 0,
+    "w": 128,
+    "h": 128
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 128,
+    "h": 128
+   },
+   "sourceSize": {
+    "w": 128,
+    "h": 128
+   },
+   "duration": 180
+  },
+  {
+   "filename": "witch 2.ase",
+   "frame": {
+    "x": 256,
+    "y": 0,
+    "w": 128,
+    "h": 128
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 128,
+    "h": 128
+   },
+   "sourceSize": {
+    "w": 128,
+    "h": 128
+   },
+   "duration": 180
+  },
+  {
+   "filename": "witch 3.ase",
+   "frame": {
+    "x": 384,
+    "y": 0,
+    "w": 128,
+    "h": 128
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 128,
+    "h": 128
+   },
+   "sourceSize": {
+    "w": 128,
+    "h": 128
+   },
+   "duration": 180
+  }
+ ],
+ "meta": {
+  "app": "libresprite-mcp (LibreSprite-compatible)",
+  "version": "0.1.0",
+  "image": "witch_idle_sheet.png",
+  "format": "RGBA8888",
+  "size": {
+   "w": 512,
+   "h": 128
+  },
+  "scale": "4",
+  "frameTags": [
+   {
+    "name": "idle",
+    "from": 0,
+    "to": 3,
+    "direction": "forward"
+   }
+  ],
+  "layers": [
+   {
+    "name": "broom",
+    "opacity": 255,
+    "blendMode": "normal"
+   },
+   {
+    "name": "body",
+    "opacity": 255,
+    "blendMode": "normal"
+   },
+   {
+    "name": "head",
+    "opacity": 255,
+    "blendMode": "normal"
+   },
+   {
+    "name": "hat",
+    "opacity": 255,
+    "blendMode": "normal"
+   }
+  ]
+ }
+}

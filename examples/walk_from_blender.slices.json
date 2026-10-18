@@ -1,0 +1,16 @@
+{
+ "sprite": "walk_from_blender.ase",
+ "slices": [
+  {
+   "name": "pivot",
+   "x": 0,
+   "y": 0,
+   "width": 48,
+   "height": 48,
+   "pivot": {
+    "x": 24,
+    "y": 42
+   }
+  }
+ ]
+}

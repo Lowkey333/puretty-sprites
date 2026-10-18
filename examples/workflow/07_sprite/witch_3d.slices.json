@@ -1,0 +1,16 @@
+{
+ "sprite": "witch_3d.ase",
+ "slices": [
+  {
+   "name": "pivot",
+   "x": 0,
+   "y": 0,
+   "width": 64,
+   "height": 64,
+   "pivot": {
+    "x": 32,
+    "y": 57
+   }
+  }
+ ]
+}

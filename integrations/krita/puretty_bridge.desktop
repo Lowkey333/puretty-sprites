@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Service
+ServiceTypes=Krita/PythonPlugin
+X-KDE-Library=puretty_bridge
+X-Python-2-Compatible=false
+X-Krita-Manual=Manual.html
+Name=Puretty Bridge
+Comment=Lets local AI tools (the libresprite-mcp server) open, edit and export Krita documents over a localhost-only socket
