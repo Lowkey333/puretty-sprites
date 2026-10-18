@@ -2,7 +2,7 @@
 
 An MCP server that lets an AI agent (Claude Code, Claude Desktop, any MCP client) draw and animate pixel-art sprites as [LibreSprite](https://libresprite.github.io) files. It is a port of [aseprite-mcp](https://github.com/diivi/aseprite-mcp) by Divyansh Singh (MIT): the same tool names and arguments, for LibreSprite instead of Aseprite, plus tools for turning AI-generated images and Blender renders into pixel art.
 
-**141 tools**: canvas, drawing, text, layers, regions, effects and filters, animation, palettes, transforms, slices, export, reading pixels, analysis, quality checks, the AI-image pipeline, Blender, ComfyUI, Krita, and LibreSprite itself.
+**143 tools**: canvas, drawing, text, layers, regions, effects and filters, animation, palettes, transforms, slices, export, reading pixels, analysis, quality checks, the AI-image pipeline, Blender, ComfyUI, Krita, and LibreSprite itself.
 
 ![Witch idle animation drawn with the tools](../examples/witch_idle.gif)
 
@@ -49,7 +49,7 @@ Needs Python 3.11+ and [uv](https://docs.astral.sh/uv/). LibreSprite is optional
 ```
 cd libresprite-mcp
 uv sync
-uv run pytest            # 139 tests; live Krita/ComfyUI ones skip when those aren't running
+uv run pytest            # 158 tests; live Krita/ComfyUI ones skip when those aren't running
 ```
 
 Claude Code picks the server up from `../.mcp.json` when started in the Puretty-sprites folder. For other clients:
@@ -163,10 +163,12 @@ Generated images aren't pixel art: their "pixels" are off-grid, with soft edges,
 | Tool | Description |
 |---|---|
 | `blender_status`, `blender_list_animations`, `blender_render_sprites` | Render a 3D character from 1-16 directions with an orthographic camera and toon/flat shading, then feed the manifest to `frames_to_sprite` (see `../integrations/blender`) |
-| `blender_auto_rig` | Give a generated (unrigged) humanoid mesh a skeleton plus Idle and Walk actions, ready to render |
+| `blender_auto_rig` | Give a generated (unrigged) humanoid mesh a skeleton with feet and hands (joints from its silhouette, or from DWPose when it sees a full skeleton), heat-weighted skinning and eight animations (Idle, Walk, Run, Attack, Cast, Hit, Death, Jump); returns a picture of the skeleton over the model |
+| `blender_add_animation` | Retarget a motion capture clip (BVH, or a Mixamo FBX "Without Skin") onto a `blender_auto_rig` character as a new action, looped or one-shot, in place or with root motion |
 | `comfyui_status`, `comfyui_list_models`, `comfyui_generate`, `comfyui_img2img` | Generate and restyle images on a local ComfyUI (see `../integrations/comfyui`) |
 | `comfyui_run_workflow`, `comfyui_list_templates` | Run any workflow: API format, a UI-format save (converted with the server's node definitions) or a bundled template such as `template:3d_pixal3d_trellis2_image_to_model` (image to textured 3D model) |
 | `comfyui_remove_background` | AI cutout (BiRefNet): removes floor shadows and enclosed background before pixelizing |
+| `comfyui_detect_pose` | DWPose body keypoints (18 joints) and a skeleton image for a figure, e.g. to check a concept's A-pose; `blender_auto_rig` uses it on a front render |
 | `krita_status`, `krita_new_document`, `krita_open`, `krita_list_layers`, `krita_add_image_layer`, `krita_export`, `krita_view_canvas`, `krita_save_document`, `krita_close_document`, `krita_run_python` | Work in a running Krita through the Puretty Bridge plugin (see `../integrations/krita`) |
 
 ### LibreSprite
@@ -186,5 +188,5 @@ libresprite_mcp/
   core/sprite.py     load/edit/save helpers shared by the tools
   core/libresprite.py  finding and running LibreSprite
   tools/*.py         one module per tool category
-tests/               139 tests; test_libresprite_parity.py checks against the real LibreSprite
+tests/               158 tests; test_libresprite_parity.py checks against the real LibreSprite
 ```

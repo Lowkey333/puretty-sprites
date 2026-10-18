@@ -19,6 +19,7 @@ examples/workflow/05_trellis2/ComfyUI_00001.glb
 examples/workflow/05_trellis2/preview3d_*.glb
 examples/workflow/05_trellis2/ComfyUI_temp_*.png
 examples/workflow/06_blender/witch_rigged.blend
+examples/workflow/06_blender/*_rig/
 examples/workflow/06_blender/preview_lit/
 examples/workflow/06_blender/walk_check/
 examples/workflow/06_blender/sprites_64/

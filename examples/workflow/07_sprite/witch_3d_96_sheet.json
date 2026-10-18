@@ -289,8 +289,8 @@
   {
    "filename": "witch_3d_96 13.ase",
    "frame": {
-    "x": 0,
-    "y": 96,
+    "x": 1248,
+    "y": 0,
     "w": 96,
     "h": 96
    },
@@ -311,8 +311,8 @@
   {
    "filename": "witch_3d_96 14.ase",
    "frame": {
-    "x": 96,
-    "y": 96,
+    "x": 1344,
+    "y": 0,
     "w": 96,
     "h": 96
    },
@@ -333,8 +333,8 @@
   {
    "filename": "witch_3d_96 15.ase",
    "frame": {
-    "x": 192,
-    "y": 96,
+    "x": 1440,
+    "y": 0,
     "w": 96,
     "h": 96
    },
@@ -355,8 +355,8 @@
   {
    "filename": "witch_3d_96 16.ase",
    "frame": {
-    "x": 288,
-    "y": 96,
+    "x": 1536,
+    "y": 0,
     "w": 96,
     "h": 96
    },
@@ -377,8 +377,8 @@
   {
    "filename": "witch_3d_96 17.ase",
    "frame": {
-    "x": 384,
-    "y": 96,
+    "x": 1632,
+    "y": 0,
     "w": 96,
     "h": 96
    },
@@ -399,8 +399,8 @@
   {
    "filename": "witch_3d_96 18.ase",
    "frame": {
-    "x": 480,
-    "y": 96,
+    "x": 1728,
+    "y": 0,
     "w": 96,
     "h": 96
    },
@@ -421,8 +421,8 @@
   {
    "filename": "witch_3d_96 19.ase",
    "frame": {
-    "x": 576,
-    "y": 96,
+    "x": 1824,
+    "y": 0,
     "w": 96,
     "h": 96
    },
@@ -443,8 +443,8 @@
   {
    "filename": "witch_3d_96 20.ase",
    "frame": {
-    "x": 672,
-    "y": 96,
+    "x": 1920,
+    "y": 0,
     "w": 96,
     "h": 96
    },
@@ -465,8 +465,8 @@
   {
    "filename": "witch_3d_96 21.ase",
    "frame": {
-    "x": 768,
-    "y": 96,
+    "x": 2016,
+    "y": 0,
     "w": 96,
     "h": 96
    },
@@ -487,8 +487,8 @@
   {
    "filename": "witch_3d_96 22.ase",
    "frame": {
-    "x": 864,
-    "y": 96,
+    "x": 2112,
+    "y": 0,
     "w": 96,
     "h": 96
    },
@@ -509,7 +509,7 @@
   {
    "filename": "witch_3d_96 23.ase",
    "frame": {
-    "x": 960,
+    "x": 0,
     "y": 96,
     "w": 96,
     "h": 96
@@ -531,7 +531,7 @@
   {
    "filename": "witch_3d_96 24.ase",
    "frame": {
-    "x": 1056,
+    "x": 96,
     "y": 96,
     "w": 96,
     "h": 96
@@ -553,7 +553,7 @@
   {
    "filename": "witch_3d_96 25.ase",
    "frame": {
-    "x": 1152,
+    "x": 192,
     "y": 96,
     "w": 96,
     "h": 96
@@ -575,8 +575,8 @@
   {
    "filename": "witch_3d_96 26.ase",
    "frame": {
-    "x": 0,
-    "y": 192,
+    "x": 288,
+    "y": 96,
     "w": 96,
     "h": 96
    },
@@ -597,8 +597,8 @@
   {
    "filename": "witch_3d_96 27.ase",
    "frame": {
-    "x": 96,
-    "y": 192,
+    "x": 384,
+    "y": 96,
     "w": 96,
     "h": 96
    },
@@ -619,8 +619,8 @@
   {
    "filename": "witch_3d_96 28.ase",
    "frame": {
-    "x": 192,
-    "y": 192,
+    "x": 480,
+    "y": 96,
     "w": 96,
     "h": 96
    },
@@ -641,8 +641,8 @@
   {
    "filename": "witch_3d_96 29.ase",
    "frame": {
-    "x": 288,
-    "y": 192,
+    "x": 576,
+    "y": 96,
     "w": 96,
     "h": 96
    },
@@ -663,8 +663,8 @@
   {
    "filename": "witch_3d_96 30.ase",
    "frame": {
-    "x": 384,
-    "y": 192,
+    "x": 672,
+    "y": 96,
     "w": 96,
     "h": 96
    },
@@ -685,8 +685,8 @@
   {
    "filename": "witch_3d_96 31.ase",
    "frame": {
-    "x": 480,
-    "y": 192,
+    "x": 768,
+    "y": 96,
     "w": 96,
     "h": 96
    },
@@ -707,8 +707,8 @@
   {
    "filename": "witch_3d_96 32.ase",
    "frame": {
-    "x": 576,
-    "y": 192,
+    "x": 864,
+    "y": 96,
     "w": 96,
     "h": 96
    },
@@ -729,8 +729,8 @@
   {
    "filename": "witch_3d_96 33.ase",
    "frame": {
-    "x": 672,
-    "y": 192,
+    "x": 960,
+    "y": 96,
     "w": 96,
     "h": 96
    },
@@ -751,8 +751,8 @@
   {
    "filename": "witch_3d_96 34.ase",
    "frame": {
-    "x": 768,
-    "y": 192,
+    "x": 1056,
+    "y": 96,
     "w": 96,
     "h": 96
    },
@@ -773,8 +773,8 @@
   {
    "filename": "witch_3d_96 35.ase",
    "frame": {
-    "x": 864,
-    "y": 192,
+    "x": 1152,
+    "y": 96,
     "w": 96,
     "h": 96
    },
@@ -795,8 +795,8 @@
   {
    "filename": "witch_3d_96 36.ase",
    "frame": {
-    "x": 960,
-    "y": 192,
+    "x": 1248,
+    "y": 96,
     "w": 96,
     "h": 96
    },
@@ -817,8 +817,8 @@
   {
    "filename": "witch_3d_96 37.ase",
    "frame": {
-    "x": 1056,
-    "y": 192,
+    "x": 1344,
+    "y": 96,
     "w": 96,
     "h": 96
    },
@@ -839,8 +839,8 @@
   {
    "filename": "witch_3d_96 38.ase",
    "frame": {
-    "x": 1152,
-    "y": 192,
+    "x": 1440,
+    "y": 96,
     "w": 96,
     "h": 96
    },
@@ -861,8 +861,8 @@
   {
    "filename": "witch_3d_96 39.ase",
    "frame": {
-    "x": 0,
-    "y": 288,
+    "x": 1536,
+    "y": 96,
     "w": 96,
     "h": 96
    },
@@ -883,8 +883,8 @@
   {
    "filename": "witch_3d_96 40.ase",
    "frame": {
-    "x": 96,
-    "y": 288,
+    "x": 1632,
+    "y": 96,
     "w": 96,
     "h": 96
    },
@@ -905,8 +905,8 @@
   {
    "filename": "witch_3d_96 41.ase",
    "frame": {
-    "x": 192,
-    "y": 288,
+    "x": 1728,
+    "y": 96,
     "w": 96,
     "h": 96
    },
@@ -927,8 +927,8 @@
   {
    "filename": "witch_3d_96 42.ase",
    "frame": {
-    "x": 288,
-    "y": 288,
+    "x": 1824,
+    "y": 96,
     "w": 96,
     "h": 96
    },
@@ -949,8 +949,8 @@
   {
    "filename": "witch_3d_96 43.ase",
    "frame": {
-    "x": 384,
-    "y": 288,
+    "x": 1920,
+    "y": 96,
     "w": 96,
     "h": 96
    },
@@ -971,8 +971,8 @@
   {
    "filename": "witch_3d_96 44.ase",
    "frame": {
-    "x": 480,
-    "y": 288,
+    "x": 2016,
+    "y": 96,
     "w": 96,
     "h": 96
    },
@@ -993,8 +993,8 @@
   {
    "filename": "witch_3d_96 45.ase",
    "frame": {
-    "x": 576,
-    "y": 288,
+    "x": 2112,
+    "y": 96,
     "w": 96,
     "h": 96
    },
@@ -1015,8 +1015,8 @@
   {
    "filename": "witch_3d_96 46.ase",
    "frame": {
-    "x": 672,
-    "y": 288,
+    "x": 0,
+    "y": 192,
     "w": 96,
     "h": 96
    },
@@ -1037,8 +1037,8 @@
   {
    "filename": "witch_3d_96 47.ase",
    "frame": {
-    "x": 768,
-    "y": 288,
+    "x": 96,
+    "y": 192,
     "w": 96,
     "h": 96
    },
@@ -1059,8 +1059,8 @@
   {
    "filename": "witch_3d_96 48.ase",
    "frame": {
-    "x": 864,
-    "y": 288,
+    "x": 192,
+    "y": 192,
     "w": 96,
     "h": 96
    },
@@ -1081,8 +1081,8 @@
   {
    "filename": "witch_3d_96 49.ase",
    "frame": {
-    "x": 960,
-    "y": 288,
+    "x": 288,
+    "y": 192,
     "w": 96,
     "h": 96
    },
@@ -1103,8 +1103,8 @@
   {
    "filename": "witch_3d_96 50.ase",
    "frame": {
-    "x": 1056,
-    "y": 288,
+    "x": 384,
+    "y": 192,
     "w": 96,
     "h": 96
    },
@@ -1125,8 +1125,8 @@
   {
    "filename": "witch_3d_96 51.ase",
    "frame": {
-    "x": 1152,
-    "y": 288,
+    "x": 480,
+    "y": 192,
     "w": 96,
     "h": 96
    },
@@ -1147,8 +1147,8 @@
   {
    "filename": "witch_3d_96 52.ase",
    "frame": {
-    "x": 0,
-    "y": 384,
+    "x": 576,
+    "y": 192,
     "w": 96,
     "h": 96
    },
@@ -1169,8 +1169,8 @@
   {
    "filename": "witch_3d_96 53.ase",
    "frame": {
-    "x": 96,
-    "y": 384,
+    "x": 672,
+    "y": 192,
     "w": 96,
     "h": 96
    },
@@ -1191,8 +1191,8 @@
   {
    "filename": "witch_3d_96 54.ase",
    "frame": {
-    "x": 192,
-    "y": 384,
+    "x": 768,
+    "y": 192,
     "w": 96,
     "h": 96
    },
@@ -1213,8 +1213,8 @@
   {
    "filename": "witch_3d_96 55.ase",
    "frame": {
-    "x": 288,
-    "y": 384,
+    "x": 864,
+    "y": 192,
     "w": 96,
     "h": 96
    },
@@ -1235,8 +1235,8 @@
   {
    "filename": "witch_3d_96 56.ase",
    "frame": {
-    "x": 384,
-    "y": 384,
+    "x": 960,
+    "y": 192,
     "w": 96,
     "h": 96
    },
@@ -1257,8 +1257,8 @@
   {
    "filename": "witch_3d_96 57.ase",
    "frame": {
-    "x": 480,
-    "y": 384,
+    "x": 1056,
+    "y": 192,
     "w": 96,
     "h": 96
    },
@@ -1279,8 +1279,8 @@
   {
    "filename": "witch_3d_96 58.ase",
    "frame": {
-    "x": 576,
-    "y": 384,
+    "x": 1152,
+    "y": 192,
     "w": 96,
     "h": 96
    },
@@ -1301,8 +1301,8 @@
   {
    "filename": "witch_3d_96 59.ase",
    "frame": {
-    "x": 672,
-    "y": 384,
+    "x": 1248,
+    "y": 192,
     "w": 96,
     "h": 96
    },
@@ -1323,8 +1323,8 @@
   {
    "filename": "witch_3d_96 60.ase",
    "frame": {
-    "x": 768,
-    "y": 384,
+    "x": 1344,
+    "y": 192,
     "w": 96,
     "h": 96
    },
@@ -1345,8 +1345,8 @@
   {
    "filename": "witch_3d_96 61.ase",
    "frame": {
-    "x": 864,
-    "y": 384,
+    "x": 1440,
+    "y": 192,
     "w": 96,
     "h": 96
    },
@@ -1367,8 +1367,8 @@
   {
    "filename": "witch_3d_96 62.ase",
    "frame": {
-    "x": 960,
-    "y": 384,
+    "x": 1536,
+    "y": 192,
     "w": 96,
     "h": 96
    },
@@ -1389,8 +1389,8 @@
   {
    "filename": "witch_3d_96 63.ase",
    "frame": {
-    "x": 1056,
-    "y": 384,
+    "x": 1632,
+    "y": 192,
     "w": 96,
     "h": 96
    },
@@ -1411,8 +1411,8 @@
   {
    "filename": "witch_3d_96 64.ase",
    "frame": {
-    "x": 1152,
-    "y": 384,
+    "x": 1728,
+    "y": 192,
     "w": 96,
     "h": 96
    },
@@ -1433,8 +1433,8 @@
   {
    "filename": "witch_3d_96 65.ase",
    "frame": {
-    "x": 0,
-    "y": 480,
+    "x": 1824,
+    "y": 192,
     "w": 96,
     "h": 96
    },
@@ -1455,8 +1455,8 @@
   {
    "filename": "witch_3d_96 66.ase",
    "frame": {
-    "x": 96,
-    "y": 480,
+    "x": 1920,
+    "y": 192,
     "w": 96,
     "h": 96
    },
@@ -1477,8 +1477,8 @@
   {
    "filename": "witch_3d_96 67.ase",
    "frame": {
-    "x": 192,
-    "y": 480,
+    "x": 2016,
+    "y": 192,
     "w": 96,
     "h": 96
    },
@@ -1499,8 +1499,8 @@
   {
    "filename": "witch_3d_96 68.ase",
    "frame": {
-    "x": 288,
-    "y": 480,
+    "x": 2112,
+    "y": 192,
     "w": 96,
     "h": 96
    },
@@ -1521,8 +1521,8 @@
   {
    "filename": "witch_3d_96 69.ase",
    "frame": {
-    "x": 384,
-    "y": 480,
+    "x": 0,
+    "y": 288,
     "w": 96,
     "h": 96
    },
@@ -1543,8 +1543,8 @@
   {
    "filename": "witch_3d_96 70.ase",
    "frame": {
-    "x": 480,
-    "y": 480,
+    "x": 96,
+    "y": 288,
     "w": 96,
     "h": 96
    },
@@ -1565,8 +1565,8 @@
   {
    "filename": "witch_3d_96 71.ase",
    "frame": {
-    "x": 576,
-    "y": 480,
+    "x": 192,
+    "y": 288,
     "w": 96,
     "h": 96
    },
@@ -1587,8 +1587,8 @@
   {
    "filename": "witch_3d_96 72.ase",
    "frame": {
-    "x": 672,
-    "y": 480,
+    "x": 288,
+    "y": 288,
     "w": 96,
     "h": 96
    },
@@ -1609,8 +1609,8 @@
   {
    "filename": "witch_3d_96 73.ase",
    "frame": {
-    "x": 768,
-    "y": 480,
+    "x": 384,
+    "y": 288,
     "w": 96,
     "h": 96
    },
@@ -1631,8 +1631,8 @@
   {
    "filename": "witch_3d_96 74.ase",
    "frame": {
-    "x": 864,
-    "y": 480,
+    "x": 480,
+    "y": 288,
     "w": 96,
     "h": 96
    },
@@ -1653,8 +1653,8 @@
   {
    "filename": "witch_3d_96 75.ase",
    "frame": {
-    "x": 960,
-    "y": 480,
+    "x": 576,
+    "y": 288,
     "w": 96,
     "h": 96
    },
@@ -1675,8 +1675,8 @@
   {
    "filename": "witch_3d_96 76.ase",
    "frame": {
-    "x": 1056,
-    "y": 480,
+    "x": 672,
+    "y": 288,
     "w": 96,
     "h": 96
    },
@@ -1697,8 +1697,8 @@
   {
    "filename": "witch_3d_96 77.ase",
    "frame": {
-    "x": 1152,
-    "y": 480,
+    "x": 768,
+    "y": 288,
     "w": 96,
     "h": 96
    },
@@ -1719,8 +1719,8 @@
   {
    "filename": "witch_3d_96 78.ase",
    "frame": {
-    "x": 0,
-    "y": 576,
+    "x": 864,
+    "y": 288,
     "w": 96,
     "h": 96
    },
@@ -1741,8 +1741,8 @@
   {
    "filename": "witch_3d_96 79.ase",
    "frame": {
-    "x": 96,
-    "y": 576,
+    "x": 960,
+    "y": 288,
     "w": 96,
     "h": 96
    },
@@ -1763,8 +1763,8 @@
   {
    "filename": "witch_3d_96 80.ase",
    "frame": {
-    "x": 192,
-    "y": 576,
+    "x": 1056,
+    "y": 288,
     "w": 96,
     "h": 96
    },
@@ -1785,8 +1785,8 @@
   {
    "filename": "witch_3d_96 81.ase",
    "frame": {
-    "x": 288,
-    "y": 576,
+    "x": 1152,
+    "y": 288,
     "w": 96,
     "h": 96
    },
@@ -1807,8 +1807,8 @@
   {
    "filename": "witch_3d_96 82.ase",
    "frame": {
-    "x": 384,
-    "y": 576,
+    "x": 1248,
+    "y": 288,
     "w": 96,
     "h": 96
    },
@@ -1829,8 +1829,8 @@
   {
    "filename": "witch_3d_96 83.ase",
    "frame": {
-    "x": 480,
-    "y": 576,
+    "x": 1344,
+    "y": 288,
     "w": 96,
     "h": 96
    },
@@ -1851,8 +1851,8 @@
   {
    "filename": "witch_3d_96 84.ase",
    "frame": {
-    "x": 576,
-    "y": 576,
+    "x": 1440,
+    "y": 288,
     "w": 96,
     "h": 96
    },
@@ -1873,8 +1873,8 @@
   {
    "filename": "witch_3d_96 85.ase",
    "frame": {
-    "x": 672,
-    "y": 576,
+    "x": 1536,
+    "y": 288,
     "w": 96,
     "h": 96
    },
@@ -1895,8 +1895,8 @@
   {
    "filename": "witch_3d_96 86.ase",
    "frame": {
-    "x": 768,
-    "y": 576,
+    "x": 1632,
+    "y": 288,
     "w": 96,
     "h": 96
    },
@@ -1917,8 +1917,8 @@
   {
    "filename": "witch_3d_96 87.ase",
    "frame": {
-    "x": 864,
-    "y": 576,
+    "x": 1728,
+    "y": 288,
     "w": 96,
     "h": 96
    },
@@ -1939,8 +1939,8 @@
   {
    "filename": "witch_3d_96 88.ase",
    "frame": {
-    "x": 960,
-    "y": 576,
+    "x": 1824,
+    "y": 288,
     "w": 96,
     "h": 96
    },
@@ -1961,8 +1961,8 @@
   {
    "filename": "witch_3d_96 89.ase",
    "frame": {
-    "x": 1056,
-    "y": 576,
+    "x": 1920,
+    "y": 288,
     "w": 96,
     "h": 96
    },
@@ -1983,8 +1983,8 @@
   {
    "filename": "witch_3d_96 90.ase",
    "frame": {
-    "x": 1152,
-    "y": 576,
+    "x": 2016,
+    "y": 288,
     "w": 96,
     "h": 96
    },
@@ -2005,8 +2005,8 @@
   {
    "filename": "witch_3d_96 91.ase",
    "frame": {
-    "x": 0,
-    "y": 672,
+    "x": 2112,
+    "y": 288,
     "w": 96,
     "h": 96
    },
@@ -2027,8 +2027,8 @@
   {
    "filename": "witch_3d_96 92.ase",
    "frame": {
-    "x": 96,
-    "y": 672,
+    "x": 0,
+    "y": 384,
     "w": 96,
     "h": 96
    },
@@ -2049,8 +2049,8 @@
   {
    "filename": "witch_3d_96 93.ase",
    "frame": {
-    "x": 192,
-    "y": 672,
+    "x": 96,
+    "y": 384,
     "w": 96,
     "h": 96
    },
@@ -2071,8 +2071,8 @@
   {
    "filename": "witch_3d_96 94.ase",
    "frame": {
-    "x": 288,
-    "y": 672,
+    "x": 192,
+    "y": 384,
     "w": 96,
     "h": 96
    },
@@ -2093,8 +2093,8 @@
   {
    "filename": "witch_3d_96 95.ase",
    "frame": {
-    "x": 384,
-    "y": 672,
+    "x": 288,
+    "y": 384,
     "w": 96,
     "h": 96
    },
@@ -2115,8 +2115,8 @@
   {
    "filename": "witch_3d_96 96.ase",
    "frame": {
-    "x": 480,
-    "y": 672,
+    "x": 384,
+    "y": 384,
     "w": 96,
     "h": 96
    },
@@ -2137,8 +2137,8 @@
   {
    "filename": "witch_3d_96 97.ase",
    "frame": {
-    "x": 576,
-    "y": 672,
+    "x": 480,
+    "y": 384,
     "w": 96,
     "h": 96
    },
@@ -2159,8 +2159,8 @@
   {
    "filename": "witch_3d_96 98.ase",
    "frame": {
-    "x": 672,
-    "y": 672,
+    "x": 576,
+    "y": 384,
     "w": 96,
     "h": 96
    },
@@ -2181,8 +2181,8 @@
   {
    "filename": "witch_3d_96 99.ase",
    "frame": {
-    "x": 768,
-    "y": 672,
+    "x": 672,
+    "y": 384,
     "w": 96,
     "h": 96
    },
@@ -2203,8 +2203,8 @@
   {
    "filename": "witch_3d_96 100.ase",
    "frame": {
-    "x": 864,
-    "y": 672,
+    "x": 768,
+    "y": 384,
     "w": 96,
     "h": 96
    },
@@ -2225,8 +2225,8 @@
   {
    "filename": "witch_3d_96 101.ase",
    "frame": {
-    "x": 960,
-    "y": 672,
+    "x": 864,
+    "y": 384,
     "w": 96,
     "h": 96
    },
@@ -2247,8 +2247,8 @@
   {
    "filename": "witch_3d_96 102.ase",
    "frame": {
-    "x": 1056,
-    "y": 672,
+    "x": 960,
+    "y": 384,
     "w": 96,
     "h": 96
    },
@@ -2269,8 +2269,8 @@
   {
    "filename": "witch_3d_96 103.ase",
    "frame": {
-    "x": 1152,
-    "y": 672,
+    "x": 1056,
+    "y": 384,
     "w": 96,
     "h": 96
    },
@@ -2291,8 +2291,8 @@
   {
    "filename": "witch_3d_96 104.ase",
    "frame": {
-    "x": 0,
-    "y": 768,
+    "x": 1152,
+    "y": 384,
     "w": 96,
     "h": 96
    },
@@ -2313,8 +2313,8 @@
   {
    "filename": "witch_3d_96 105.ase",
    "frame": {
-    "x": 96,
-    "y": 768,
+    "x": 1248,
+    "y": 384,
     "w": 96,
     "h": 96
    },
@@ -2335,8 +2335,8 @@
   {
    "filename": "witch_3d_96 106.ase",
    "frame": {
-    "x": 192,
-    "y": 768,
+    "x": 1344,
+    "y": 384,
     "w": 96,
     "h": 96
    },
@@ -2357,8 +2357,8 @@
   {
    "filename": "witch_3d_96 107.ase",
    "frame": {
-    "x": 288,
-    "y": 768,
+    "x": 1440,
+    "y": 384,
     "w": 96,
     "h": 96
    },
@@ -2379,8 +2379,8 @@
   {
    "filename": "witch_3d_96 108.ase",
    "frame": {
-    "x": 384,
-    "y": 768,
+    "x": 1536,
+    "y": 384,
     "w": 96,
     "h": 96
    },
@@ -2401,8 +2401,8 @@
   {
    "filename": "witch_3d_96 109.ase",
    "frame": {
-    "x": 480,
-    "y": 768,
+    "x": 1632,
+    "y": 384,
     "w": 96,
     "h": 96
    },
@@ -2423,8 +2423,8 @@
   {
    "filename": "witch_3d_96 110.ase",
    "frame": {
-    "x": 576,
-    "y": 768,
+    "x": 1728,
+    "y": 384,
     "w": 96,
     "h": 96
    },
@@ -2445,8 +2445,8 @@
   {
    "filename": "witch_3d_96 111.ase",
    "frame": {
-    "x": 672,
-    "y": 768,
+    "x": 1824,
+    "y": 384,
     "w": 96,
     "h": 96
    },
@@ -2467,8 +2467,8 @@
   {
    "filename": "witch_3d_96 112.ase",
    "frame": {
-    "x": 768,
-    "y": 768,
+    "x": 1920,
+    "y": 384,
     "w": 96,
     "h": 96
    },
@@ -2489,8 +2489,8 @@
   {
    "filename": "witch_3d_96 113.ase",
    "frame": {
-    "x": 864,
-    "y": 768,
+    "x": 2016,
+    "y": 384,
     "w": 96,
     "h": 96
    },
@@ -2511,8 +2511,8 @@
   {
    "filename": "witch_3d_96 114.ase",
    "frame": {
-    "x": 960,
-    "y": 768,
+    "x": 2112,
+    "y": 384,
     "w": 96,
     "h": 96
    },
@@ -2533,8 +2533,8 @@
   {
    "filename": "witch_3d_96 115.ase",
    "frame": {
-    "x": 1056,
-    "y": 768,
+    "x": 0,
+    "y": 480,
     "w": 96,
     "h": 96
    },
@@ -2555,8 +2555,8 @@
   {
    "filename": "witch_3d_96 116.ase",
    "frame": {
-    "x": 1152,
-    "y": 768,
+    "x": 96,
+    "y": 480,
     "w": 96,
     "h": 96
    },
@@ -2577,8 +2577,8 @@
   {
    "filename": "witch_3d_96 117.ase",
    "frame": {
-    "x": 0,
-    "y": 864,
+    "x": 192,
+    "y": 480,
     "w": 96,
     "h": 96
    },
@@ -2599,8 +2599,8 @@
   {
    "filename": "witch_3d_96 118.ase",
    "frame": {
-    "x": 96,
-    "y": 864,
+    "x": 288,
+    "y": 480,
     "w": 96,
     "h": 96
    },
@@ -2621,8 +2621,8 @@
   {
    "filename": "witch_3d_96 119.ase",
    "frame": {
-    "x": 192,
-    "y": 864,
+    "x": 384,
+    "y": 480,
     "w": 96,
     "h": 96
    },
@@ -2643,8 +2643,8 @@
   {
    "filename": "witch_3d_96 120.ase",
    "frame": {
-    "x": 288,
-    "y": 864,
+    "x": 480,
+    "y": 480,
     "w": 96,
     "h": 96
    },
@@ -2665,8 +2665,8 @@
   {
    "filename": "witch_3d_96 121.ase",
    "frame": {
-    "x": 384,
-    "y": 864,
+    "x": 576,
+    "y": 480,
     "w": 96,
     "h": 96
    },
@@ -2687,8 +2687,8 @@
   {
    "filename": "witch_3d_96 122.ase",
    "frame": {
-    "x": 480,
-    "y": 864,
+    "x": 672,
+    "y": 480,
     "w": 96,
     "h": 96
    },
@@ -2709,8 +2709,8 @@
   {
    "filename": "witch_3d_96 123.ase",
    "frame": {
-    "x": 576,
-    "y": 864,
+    "x": 768,
+    "y": 480,
     "w": 96,
     "h": 96
    },
@@ -2731,8 +2731,8 @@
   {
    "filename": "witch_3d_96 124.ase",
    "frame": {
-    "x": 672,
-    "y": 864,
+    "x": 864,
+    "y": 480,
     "w": 96,
     "h": 96
    },
@@ -2753,8 +2753,8 @@
   {
    "filename": "witch_3d_96 125.ase",
    "frame": {
-    "x": 768,
-    "y": 864,
+    "x": 960,
+    "y": 480,
     "w": 96,
     "h": 96
    },
@@ -2775,8 +2775,8 @@
   {
    "filename": "witch_3d_96 126.ase",
    "frame": {
-    "x": 864,
-    "y": 864,
+    "x": 1056,
+    "y": 480,
     "w": 96,
     "h": 96
    },
@@ -2797,8 +2797,8 @@
   {
    "filename": "witch_3d_96 127.ase",
    "frame": {
-    "x": 960,
-    "y": 864,
+    "x": 1152,
+    "y": 480,
     "w": 96,
     "h": 96
    },
@@ -2819,8 +2819,8 @@
   {
    "filename": "witch_3d_96 128.ase",
    "frame": {
-    "x": 1056,
-    "y": 864,
+    "x": 1248,
+    "y": 480,
     "w": 96,
     "h": 96
    },
@@ -2841,8 +2841,8 @@
   {
    "filename": "witch_3d_96 129.ase",
    "frame": {
-    "x": 1152,
-    "y": 864,
+    "x": 1344,
+    "y": 480,
     "w": 96,
     "h": 96
    },
@@ -2863,8 +2863,8 @@
   {
    "filename": "witch_3d_96 130.ase",
    "frame": {
-    "x": 0,
-    "y": 960,
+    "x": 1440,
+    "y": 480,
     "w": 96,
     "h": 96
    },
@@ -2885,8 +2885,8 @@
   {
    "filename": "witch_3d_96 131.ase",
    "frame": {
-    "x": 96,
-    "y": 960,
+    "x": 1536,
+    "y": 480,
     "w": 96,
     "h": 96
    },
@@ -2907,8 +2907,8 @@
   {
    "filename": "witch_3d_96 132.ase",
    "frame": {
-    "x": 192,
-    "y": 960,
+    "x": 1632,
+    "y": 480,
     "w": 96,
     "h": 96
    },
@@ -2929,8 +2929,8 @@
   {
    "filename": "witch_3d_96 133.ase",
    "frame": {
-    "x": 288,
-    "y": 960,
+    "x": 1728,
+    "y": 480,
     "w": 96,
     "h": 96
    },
@@ -2951,8 +2951,8 @@
   {
    "filename": "witch_3d_96 134.ase",
    "frame": {
-    "x": 384,
-    "y": 960,
+    "x": 1824,
+    "y": 480,
     "w": 96,
     "h": 96
    },
@@ -2973,6 +2973,2206 @@
   {
    "filename": "witch_3d_96 135.ase",
    "frame": {
+    "x": 1920,
+    "y": 480,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 136.ase",
+   "frame": {
+    "x": 2016,
+    "y": 480,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 137.ase",
+   "frame": {
+    "x": 2112,
+    "y": 480,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 138.ase",
+   "frame": {
+    "x": 0,
+    "y": 576,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 139.ase",
+   "frame": {
+    "x": 96,
+    "y": 576,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 140.ase",
+   "frame": {
+    "x": 192,
+    "y": 576,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 141.ase",
+   "frame": {
+    "x": 288,
+    "y": 576,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 142.ase",
+   "frame": {
+    "x": 384,
+    "y": 576,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 143.ase",
+   "frame": {
+    "x": 480,
+    "y": 576,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 144.ase",
+   "frame": {
+    "x": 576,
+    "y": 576,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 145.ase",
+   "frame": {
+    "x": 672,
+    "y": 576,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 146.ase",
+   "frame": {
+    "x": 768,
+    "y": 576,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 147.ase",
+   "frame": {
+    "x": 864,
+    "y": 576,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 148.ase",
+   "frame": {
+    "x": 960,
+    "y": 576,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 149.ase",
+   "frame": {
+    "x": 1056,
+    "y": 576,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 150.ase",
+   "frame": {
+    "x": 1152,
+    "y": 576,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 151.ase",
+   "frame": {
+    "x": 1248,
+    "y": 576,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 152.ase",
+   "frame": {
+    "x": 1344,
+    "y": 576,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 153.ase",
+   "frame": {
+    "x": 1440,
+    "y": 576,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 154.ase",
+   "frame": {
+    "x": 1536,
+    "y": 576,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 155.ase",
+   "frame": {
+    "x": 1632,
+    "y": 576,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 156.ase",
+   "frame": {
+    "x": 1728,
+    "y": 576,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 157.ase",
+   "frame": {
+    "x": 1824,
+    "y": 576,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 158.ase",
+   "frame": {
+    "x": 1920,
+    "y": 576,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 159.ase",
+   "frame": {
+    "x": 2016,
+    "y": 576,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 160.ase",
+   "frame": {
+    "x": 2112,
+    "y": 576,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 161.ase",
+   "frame": {
+    "x": 0,
+    "y": 672,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 162.ase",
+   "frame": {
+    "x": 96,
+    "y": 672,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 163.ase",
+   "frame": {
+    "x": 192,
+    "y": 672,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 164.ase",
+   "frame": {
+    "x": 288,
+    "y": 672,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 165.ase",
+   "frame": {
+    "x": 384,
+    "y": 672,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 166.ase",
+   "frame": {
+    "x": 480,
+    "y": 672,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 167.ase",
+   "frame": {
+    "x": 576,
+    "y": 672,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 168.ase",
+   "frame": {
+    "x": 672,
+    "y": 672,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 169.ase",
+   "frame": {
+    "x": 768,
+    "y": 672,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 170.ase",
+   "frame": {
+    "x": 864,
+    "y": 672,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 171.ase",
+   "frame": {
+    "x": 960,
+    "y": 672,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 172.ase",
+   "frame": {
+    "x": 1056,
+    "y": 672,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 173.ase",
+   "frame": {
+    "x": 1152,
+    "y": 672,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 174.ase",
+   "frame": {
+    "x": 1248,
+    "y": 672,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 175.ase",
+   "frame": {
+    "x": 1344,
+    "y": 672,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 176.ase",
+   "frame": {
+    "x": 1440,
+    "y": 672,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 177.ase",
+   "frame": {
+    "x": 1536,
+    "y": 672,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 178.ase",
+   "frame": {
+    "x": 1632,
+    "y": 672,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 179.ase",
+   "frame": {
+    "x": 1728,
+    "y": 672,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 180.ase",
+   "frame": {
+    "x": 1824,
+    "y": 672,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 181.ase",
+   "frame": {
+    "x": 1920,
+    "y": 672,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 182.ase",
+   "frame": {
+    "x": 2016,
+    "y": 672,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 183.ase",
+   "frame": {
+    "x": 2112,
+    "y": 672,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 184.ase",
+   "frame": {
+    "x": 0,
+    "y": 768,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 185.ase",
+   "frame": {
+    "x": 96,
+    "y": 768,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 186.ase",
+   "frame": {
+    "x": 192,
+    "y": 768,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 187.ase",
+   "frame": {
+    "x": 288,
+    "y": 768,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 188.ase",
+   "frame": {
+    "x": 384,
+    "y": 768,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 189.ase",
+   "frame": {
+    "x": 480,
+    "y": 768,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 190.ase",
+   "frame": {
+    "x": 576,
+    "y": 768,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 191.ase",
+   "frame": {
+    "x": 672,
+    "y": 768,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 192.ase",
+   "frame": {
+    "x": 768,
+    "y": 768,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 193.ase",
+   "frame": {
+    "x": 864,
+    "y": 768,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 194.ase",
+   "frame": {
+    "x": 960,
+    "y": 768,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 195.ase",
+   "frame": {
+    "x": 1056,
+    "y": 768,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 196.ase",
+   "frame": {
+    "x": 1152,
+    "y": 768,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 197.ase",
+   "frame": {
+    "x": 1248,
+    "y": 768,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 198.ase",
+   "frame": {
+    "x": 1344,
+    "y": 768,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 199.ase",
+   "frame": {
+    "x": 1440,
+    "y": 768,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 200.ase",
+   "frame": {
+    "x": 1536,
+    "y": 768,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 201.ase",
+   "frame": {
+    "x": 1632,
+    "y": 768,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 202.ase",
+   "frame": {
+    "x": 1728,
+    "y": 768,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 203.ase",
+   "frame": {
+    "x": 1824,
+    "y": 768,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 204.ase",
+   "frame": {
+    "x": 1920,
+    "y": 768,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 205.ase",
+   "frame": {
+    "x": 2016,
+    "y": 768,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 206.ase",
+   "frame": {
+    "x": 2112,
+    "y": 768,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 207.ase",
+   "frame": {
+    "x": 0,
+    "y": 864,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 208.ase",
+   "frame": {
+    "x": 96,
+    "y": 864,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 209.ase",
+   "frame": {
+    "x": 192,
+    "y": 864,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 210.ase",
+   "frame": {
+    "x": 288,
+    "y": 864,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 211.ase",
+   "frame": {
+    "x": 384,
+    "y": 864,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 212.ase",
+   "frame": {
+    "x": 480,
+    "y": 864,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 213.ase",
+   "frame": {
+    "x": 576,
+    "y": 864,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 214.ase",
+   "frame": {
+    "x": 672,
+    "y": 864,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 215.ase",
+   "frame": {
+    "x": 768,
+    "y": 864,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 216.ase",
+   "frame": {
+    "x": 864,
+    "y": 864,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 217.ase",
+   "frame": {
+    "x": 960,
+    "y": 864,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 218.ase",
+   "frame": {
+    "x": 1056,
+    "y": 864,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 219.ase",
+   "frame": {
+    "x": 1152,
+    "y": 864,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 220.ase",
+   "frame": {
+    "x": 1248,
+    "y": 864,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 221.ase",
+   "frame": {
+    "x": 1344,
+    "y": 864,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 222.ase",
+   "frame": {
+    "x": 1440,
+    "y": 864,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 223.ase",
+   "frame": {
+    "x": 1536,
+    "y": 864,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 224.ase",
+   "frame": {
+    "x": 1632,
+    "y": 864,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 225.ase",
+   "frame": {
+    "x": 1728,
+    "y": 864,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 226.ase",
+   "frame": {
+    "x": 1824,
+    "y": 864,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 227.ase",
+   "frame": {
+    "x": 1920,
+    "y": 864,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 228.ase",
+   "frame": {
+    "x": 2016,
+    "y": 864,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 229.ase",
+   "frame": {
+    "x": 2112,
+    "y": 864,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 230.ase",
+   "frame": {
+    "x": 0,
+    "y": 960,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 231.ase",
+   "frame": {
+    "x": 96,
+    "y": 960,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 232.ase",
+   "frame": {
+    "x": 192,
+    "y": 960,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 233.ase",
+   "frame": {
+    "x": 288,
+    "y": 960,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 234.ase",
+   "frame": {
+    "x": 384,
+    "y": 960,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 235.ase",
+   "frame": {
     "x": 480,
     "y": 960,
     "w": 96,
@@ -2993,7 +5193,7 @@
    "duration": 167
   },
   {
-   "filename": "witch_3d_96 136.ase",
+   "filename": "witch_3d_96 236.ase",
    "frame": {
     "x": 576,
     "y": 960,
@@ -3015,7 +5215,7 @@
    "duration": 167
   },
   {
-   "filename": "witch_3d_96 137.ase",
+   "filename": "witch_3d_96 237.ase",
    "frame": {
     "x": 672,
     "y": 960,
@@ -3037,7 +5237,7 @@
    "duration": 167
   },
   {
-   "filename": "witch_3d_96 138.ase",
+   "filename": "witch_3d_96 238.ase",
    "frame": {
     "x": 768,
     "y": 960,
@@ -3059,7 +5259,7 @@
    "duration": 167
   },
   {
-   "filename": "witch_3d_96 139.ase",
+   "filename": "witch_3d_96 239.ase",
    "frame": {
     "x": 864,
     "y": 960,
@@ -3081,7 +5281,7 @@
    "duration": 167
   },
   {
-   "filename": "witch_3d_96 140.ase",
+   "filename": "witch_3d_96 240.ase",
    "frame": {
     "x": 960,
     "y": 960,
@@ -3103,7 +5303,7 @@
    "duration": 167
   },
   {
-   "filename": "witch_3d_96 141.ase",
+   "filename": "witch_3d_96 241.ase",
    "frame": {
     "x": 1056,
     "y": 960,
@@ -3125,7 +5325,7 @@
    "duration": 167
   },
   {
-   "filename": "witch_3d_96 142.ase",
+   "filename": "witch_3d_96 242.ase",
    "frame": {
     "x": 1152,
     "y": 960,
@@ -3147,7 +5347,227 @@
    "duration": 167
   },
   {
-   "filename": "witch_3d_96 143.ase",
+   "filename": "witch_3d_96 243.ase",
+   "frame": {
+    "x": 1248,
+    "y": 960,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 244.ase",
+   "frame": {
+    "x": 1344,
+    "y": 960,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 245.ase",
+   "frame": {
+    "x": 1440,
+    "y": 960,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 246.ase",
+   "frame": {
+    "x": 1536,
+    "y": 960,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 247.ase",
+   "frame": {
+    "x": 1632,
+    "y": 960,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 248.ase",
+   "frame": {
+    "x": 1728,
+    "y": 960,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 249.ase",
+   "frame": {
+    "x": 1824,
+    "y": 960,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 250.ase",
+   "frame": {
+    "x": 1920,
+    "y": 960,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 251.ase",
+   "frame": {
+    "x": 2016,
+    "y": 960,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 252.ase",
+   "frame": {
+    "x": 2112,
+    "y": 960,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 253.ase",
    "frame": {
     "x": 0,
     "y": 1056,
@@ -3169,7 +5589,7 @@
    "duration": 167
   },
   {
-   "filename": "witch_3d_96 144.ase",
+   "filename": "witch_3d_96 254.ase",
    "frame": {
     "x": 96,
     "y": 1056,
@@ -3191,7 +5611,7 @@
    "duration": 167
   },
   {
-   "filename": "witch_3d_96 145.ase",
+   "filename": "witch_3d_96 255.ase",
    "frame": {
     "x": 192,
     "y": 1056,
@@ -3213,7 +5633,7 @@
    "duration": 167
   },
   {
-   "filename": "witch_3d_96 146.ase",
+   "filename": "witch_3d_96 256.ase",
    "frame": {
     "x": 288,
     "y": 1056,
@@ -3235,7 +5655,7 @@
    "duration": 167
   },
   {
-   "filename": "witch_3d_96 147.ase",
+   "filename": "witch_3d_96 257.ase",
    "frame": {
     "x": 384,
     "y": 1056,
@@ -3257,7 +5677,7 @@
    "duration": 167
   },
   {
-   "filename": "witch_3d_96 148.ase",
+   "filename": "witch_3d_96 258.ase",
    "frame": {
     "x": 480,
     "y": 1056,
@@ -3279,7 +5699,7 @@
    "duration": 167
   },
   {
-   "filename": "witch_3d_96 149.ase",
+   "filename": "witch_3d_96 259.ase",
    "frame": {
     "x": 576,
     "y": 1056,
@@ -3301,7 +5721,7 @@
    "duration": 167
   },
   {
-   "filename": "witch_3d_96 150.ase",
+   "filename": "witch_3d_96 260.ase",
    "frame": {
     "x": 672,
     "y": 1056,
@@ -3323,7 +5743,7 @@
    "duration": 167
   },
   {
-   "filename": "witch_3d_96 151.ase",
+   "filename": "witch_3d_96 261.ase",
    "frame": {
     "x": 768,
     "y": 1056,
@@ -3345,7 +5765,7 @@
    "duration": 167
   },
   {
-   "filename": "witch_3d_96 152.ase",
+   "filename": "witch_3d_96 262.ase",
    "frame": {
     "x": 864,
     "y": 1056,
@@ -3367,7 +5787,7 @@
    "duration": 167
   },
   {
-   "filename": "witch_3d_96 153.ase",
+   "filename": "witch_3d_96 263.ase",
    "frame": {
     "x": 960,
     "y": 1056,
@@ -3389,7 +5809,7 @@
    "duration": 167
   },
   {
-   "filename": "witch_3d_96 154.ase",
+   "filename": "witch_3d_96 264.ase",
    "frame": {
     "x": 1056,
     "y": 1056,
@@ -3411,7 +5831,7 @@
    "duration": 167
   },
   {
-   "filename": "witch_3d_96 155.ase",
+   "filename": "witch_3d_96 265.ase",
    "frame": {
     "x": 1152,
     "y": 1056,
@@ -3433,7 +5853,227 @@
    "duration": 167
   },
   {
-   "filename": "witch_3d_96 156.ase",
+   "filename": "witch_3d_96 266.ase",
+   "frame": {
+    "x": 1248,
+    "y": 1056,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 267.ase",
+   "frame": {
+    "x": 1344,
+    "y": 1056,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 268.ase",
+   "frame": {
+    "x": 1440,
+    "y": 1056,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 269.ase",
+   "frame": {
+    "x": 1536,
+    "y": 1056,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 270.ase",
+   "frame": {
+    "x": 1632,
+    "y": 1056,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 271.ase",
+   "frame": {
+    "x": 1728,
+    "y": 1056,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 272.ase",
+   "frame": {
+    "x": 1824,
+    "y": 1056,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 273.ase",
+   "frame": {
+    "x": 1920,
+    "y": 1056,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 274.ase",
+   "frame": {
+    "x": 2016,
+    "y": 1056,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 275.ase",
+   "frame": {
+    "x": 2112,
+    "y": 1056,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 276.ase",
    "frame": {
     "x": 0,
     "y": 1152,
@@ -3455,7 +6095,7 @@
    "duration": 167
   },
   {
-   "filename": "witch_3d_96 157.ase",
+   "filename": "witch_3d_96 277.ase",
    "frame": {
     "x": 96,
     "y": 1152,
@@ -3477,7 +6117,7 @@
    "duration": 167
   },
   {
-   "filename": "witch_3d_96 158.ase",
+   "filename": "witch_3d_96 278.ase",
    "frame": {
     "x": 192,
     "y": 1152,
@@ -3499,10 +6139,4586 @@
    "duration": 167
   },
   {
-   "filename": "witch_3d_96 159.ase",
+   "filename": "witch_3d_96 279.ase",
    "frame": {
     "x": 288,
     "y": 1152,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 280.ase",
+   "frame": {
+    "x": 384,
+    "y": 1152,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 281.ase",
+   "frame": {
+    "x": 480,
+    "y": 1152,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 282.ase",
+   "frame": {
+    "x": 576,
+    "y": 1152,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 283.ase",
+   "frame": {
+    "x": 672,
+    "y": 1152,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 284.ase",
+   "frame": {
+    "x": 768,
+    "y": 1152,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 285.ase",
+   "frame": {
+    "x": 864,
+    "y": 1152,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 286.ase",
+   "frame": {
+    "x": 960,
+    "y": 1152,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 287.ase",
+   "frame": {
+    "x": 1056,
+    "y": 1152,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 288.ase",
+   "frame": {
+    "x": 1152,
+    "y": 1152,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 289.ase",
+   "frame": {
+    "x": 1248,
+    "y": 1152,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 290.ase",
+   "frame": {
+    "x": 1344,
+    "y": 1152,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 291.ase",
+   "frame": {
+    "x": 1440,
+    "y": 1152,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 292.ase",
+   "frame": {
+    "x": 1536,
+    "y": 1152,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 293.ase",
+   "frame": {
+    "x": 1632,
+    "y": 1152,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 294.ase",
+   "frame": {
+    "x": 1728,
+    "y": 1152,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 295.ase",
+   "frame": {
+    "x": 1824,
+    "y": 1152,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 296.ase",
+   "frame": {
+    "x": 1920,
+    "y": 1152,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 297.ase",
+   "frame": {
+    "x": 2016,
+    "y": 1152,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 298.ase",
+   "frame": {
+    "x": 2112,
+    "y": 1152,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 299.ase",
+   "frame": {
+    "x": 0,
+    "y": 1248,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 300.ase",
+   "frame": {
+    "x": 96,
+    "y": 1248,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 301.ase",
+   "frame": {
+    "x": 192,
+    "y": 1248,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 302.ase",
+   "frame": {
+    "x": 288,
+    "y": 1248,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 303.ase",
+   "frame": {
+    "x": 384,
+    "y": 1248,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 304.ase",
+   "frame": {
+    "x": 480,
+    "y": 1248,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 305.ase",
+   "frame": {
+    "x": 576,
+    "y": 1248,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 306.ase",
+   "frame": {
+    "x": 672,
+    "y": 1248,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 307.ase",
+   "frame": {
+    "x": 768,
+    "y": 1248,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 308.ase",
+   "frame": {
+    "x": 864,
+    "y": 1248,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 309.ase",
+   "frame": {
+    "x": 960,
+    "y": 1248,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 310.ase",
+   "frame": {
+    "x": 1056,
+    "y": 1248,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 311.ase",
+   "frame": {
+    "x": 1152,
+    "y": 1248,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 312.ase",
+   "frame": {
+    "x": 1248,
+    "y": 1248,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 313.ase",
+   "frame": {
+    "x": 1344,
+    "y": 1248,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 314.ase",
+   "frame": {
+    "x": 1440,
+    "y": 1248,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 315.ase",
+   "frame": {
+    "x": 1536,
+    "y": 1248,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 316.ase",
+   "frame": {
+    "x": 1632,
+    "y": 1248,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 317.ase",
+   "frame": {
+    "x": 1728,
+    "y": 1248,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 318.ase",
+   "frame": {
+    "x": 1824,
+    "y": 1248,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 319.ase",
+   "frame": {
+    "x": 1920,
+    "y": 1248,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 320.ase",
+   "frame": {
+    "x": 2016,
+    "y": 1248,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 321.ase",
+   "frame": {
+    "x": 2112,
+    "y": 1248,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 322.ase",
+   "frame": {
+    "x": 0,
+    "y": 1344,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 323.ase",
+   "frame": {
+    "x": 96,
+    "y": 1344,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 324.ase",
+   "frame": {
+    "x": 192,
+    "y": 1344,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 325.ase",
+   "frame": {
+    "x": 288,
+    "y": 1344,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 326.ase",
+   "frame": {
+    "x": 384,
+    "y": 1344,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 327.ase",
+   "frame": {
+    "x": 480,
+    "y": 1344,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 328.ase",
+   "frame": {
+    "x": 576,
+    "y": 1344,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 329.ase",
+   "frame": {
+    "x": 672,
+    "y": 1344,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 330.ase",
+   "frame": {
+    "x": 768,
+    "y": 1344,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 331.ase",
+   "frame": {
+    "x": 864,
+    "y": 1344,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 332.ase",
+   "frame": {
+    "x": 960,
+    "y": 1344,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 333.ase",
+   "frame": {
+    "x": 1056,
+    "y": 1344,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 334.ase",
+   "frame": {
+    "x": 1152,
+    "y": 1344,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 335.ase",
+   "frame": {
+    "x": 1248,
+    "y": 1344,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 336.ase",
+   "frame": {
+    "x": 1344,
+    "y": 1344,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 337.ase",
+   "frame": {
+    "x": 1440,
+    "y": 1344,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 338.ase",
+   "frame": {
+    "x": 1536,
+    "y": 1344,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 339.ase",
+   "frame": {
+    "x": 1632,
+    "y": 1344,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 340.ase",
+   "frame": {
+    "x": 1728,
+    "y": 1344,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 341.ase",
+   "frame": {
+    "x": 1824,
+    "y": 1344,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 342.ase",
+   "frame": {
+    "x": 1920,
+    "y": 1344,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 343.ase",
+   "frame": {
+    "x": 2016,
+    "y": 1344,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 344.ase",
+   "frame": {
+    "x": 2112,
+    "y": 1344,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 345.ase",
+   "frame": {
+    "x": 0,
+    "y": 1440,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 346.ase",
+   "frame": {
+    "x": 96,
+    "y": 1440,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 347.ase",
+   "frame": {
+    "x": 192,
+    "y": 1440,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 348.ase",
+   "frame": {
+    "x": 288,
+    "y": 1440,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 349.ase",
+   "frame": {
+    "x": 384,
+    "y": 1440,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 350.ase",
+   "frame": {
+    "x": 480,
+    "y": 1440,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 351.ase",
+   "frame": {
+    "x": 576,
+    "y": 1440,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 352.ase",
+   "frame": {
+    "x": 672,
+    "y": 1440,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 353.ase",
+   "frame": {
+    "x": 768,
+    "y": 1440,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 354.ase",
+   "frame": {
+    "x": 864,
+    "y": 1440,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 355.ase",
+   "frame": {
+    "x": 960,
+    "y": 1440,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 356.ase",
+   "frame": {
+    "x": 1056,
+    "y": 1440,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 357.ase",
+   "frame": {
+    "x": 1152,
+    "y": 1440,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 358.ase",
+   "frame": {
+    "x": 1248,
+    "y": 1440,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 359.ase",
+   "frame": {
+    "x": 1344,
+    "y": 1440,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 360.ase",
+   "frame": {
+    "x": 1440,
+    "y": 1440,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 361.ase",
+   "frame": {
+    "x": 1536,
+    "y": 1440,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 362.ase",
+   "frame": {
+    "x": 1632,
+    "y": 1440,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 363.ase",
+   "frame": {
+    "x": 1728,
+    "y": 1440,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 364.ase",
+   "frame": {
+    "x": 1824,
+    "y": 1440,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 365.ase",
+   "frame": {
+    "x": 1920,
+    "y": 1440,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 366.ase",
+   "frame": {
+    "x": 2016,
+    "y": 1440,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 367.ase",
+   "frame": {
+    "x": 2112,
+    "y": 1440,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 368.ase",
+   "frame": {
+    "x": 0,
+    "y": 1536,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 369.ase",
+   "frame": {
+    "x": 96,
+    "y": 1536,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 370.ase",
+   "frame": {
+    "x": 192,
+    "y": 1536,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 371.ase",
+   "frame": {
+    "x": 288,
+    "y": 1536,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 372.ase",
+   "frame": {
+    "x": 384,
+    "y": 1536,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 373.ase",
+   "frame": {
+    "x": 480,
+    "y": 1536,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 374.ase",
+   "frame": {
+    "x": 576,
+    "y": 1536,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 375.ase",
+   "frame": {
+    "x": 672,
+    "y": 1536,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 376.ase",
+   "frame": {
+    "x": 768,
+    "y": 1536,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 377.ase",
+   "frame": {
+    "x": 864,
+    "y": 1536,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 378.ase",
+   "frame": {
+    "x": 960,
+    "y": 1536,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 379.ase",
+   "frame": {
+    "x": 1056,
+    "y": 1536,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 380.ase",
+   "frame": {
+    "x": 1152,
+    "y": 1536,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 381.ase",
+   "frame": {
+    "x": 1248,
+    "y": 1536,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 382.ase",
+   "frame": {
+    "x": 1344,
+    "y": 1536,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 383.ase",
+   "frame": {
+    "x": 1440,
+    "y": 1536,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 384.ase",
+   "frame": {
+    "x": 1536,
+    "y": 1536,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 385.ase",
+   "frame": {
+    "x": 1632,
+    "y": 1536,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 386.ase",
+   "frame": {
+    "x": 1728,
+    "y": 1536,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 387.ase",
+   "frame": {
+    "x": 1824,
+    "y": 1536,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 388.ase",
+   "frame": {
+    "x": 1920,
+    "y": 1536,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 389.ase",
+   "frame": {
+    "x": 2016,
+    "y": 1536,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 390.ase",
+   "frame": {
+    "x": 2112,
+    "y": 1536,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 391.ase",
+   "frame": {
+    "x": 0,
+    "y": 1632,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 392.ase",
+   "frame": {
+    "x": 96,
+    "y": 1632,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 393.ase",
+   "frame": {
+    "x": 192,
+    "y": 1632,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 394.ase",
+   "frame": {
+    "x": 288,
+    "y": 1632,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 395.ase",
+   "frame": {
+    "x": 384,
+    "y": 1632,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 396.ase",
+   "frame": {
+    "x": 480,
+    "y": 1632,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 397.ase",
+   "frame": {
+    "x": 576,
+    "y": 1632,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 398.ase",
+   "frame": {
+    "x": 672,
+    "y": 1632,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 399.ase",
+   "frame": {
+    "x": 768,
+    "y": 1632,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 400.ase",
+   "frame": {
+    "x": 864,
+    "y": 1632,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 401.ase",
+   "frame": {
+    "x": 960,
+    "y": 1632,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 402.ase",
+   "frame": {
+    "x": 1056,
+    "y": 1632,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 403.ase",
+   "frame": {
+    "x": 1152,
+    "y": 1632,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 404.ase",
+   "frame": {
+    "x": 1248,
+    "y": 1632,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 405.ase",
+   "frame": {
+    "x": 1344,
+    "y": 1632,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 406.ase",
+   "frame": {
+    "x": 1440,
+    "y": 1632,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 407.ase",
+   "frame": {
+    "x": 1536,
+    "y": 1632,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 408.ase",
+   "frame": {
+    "x": 1632,
+    "y": 1632,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 409.ase",
+   "frame": {
+    "x": 1728,
+    "y": 1632,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 410.ase",
+   "frame": {
+    "x": 1824,
+    "y": 1632,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 411.ase",
+   "frame": {
+    "x": 1920,
+    "y": 1632,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 412.ase",
+   "frame": {
+    "x": 2016,
+    "y": 1632,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 413.ase",
+   "frame": {
+    "x": 2112,
+    "y": 1632,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 414.ase",
+   "frame": {
+    "x": 0,
+    "y": 1728,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 415.ase",
+   "frame": {
+    "x": 96,
+    "y": 1728,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 416.ase",
+   "frame": {
+    "x": 192,
+    "y": 1728,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 417.ase",
+   "frame": {
+    "x": 288,
+    "y": 1728,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 418.ase",
+   "frame": {
+    "x": 384,
+    "y": 1728,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 419.ase",
+   "frame": {
+    "x": 480,
+    "y": 1728,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 420.ase",
+   "frame": {
+    "x": 576,
+    "y": 1728,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 421.ase",
+   "frame": {
+    "x": 672,
+    "y": 1728,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 422.ase",
+   "frame": {
+    "x": 768,
+    "y": 1728,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 423.ase",
+   "frame": {
+    "x": 864,
+    "y": 1728,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 424.ase",
+   "frame": {
+    "x": 960,
+    "y": 1728,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 425.ase",
+   "frame": {
+    "x": 1056,
+    "y": 1728,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 426.ase",
+   "frame": {
+    "x": 1152,
+    "y": 1728,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 427.ase",
+   "frame": {
+    "x": 1248,
+    "y": 1728,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 428.ase",
+   "frame": {
+    "x": 1344,
+    "y": 1728,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 429.ase",
+   "frame": {
+    "x": 1440,
+    "y": 1728,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 430.ase",
+   "frame": {
+    "x": 1536,
+    "y": 1728,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 431.ase",
+   "frame": {
+    "x": 1632,
+    "y": 1728,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 432.ase",
+   "frame": {
+    "x": 1728,
+    "y": 1728,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 433.ase",
+   "frame": {
+    "x": 1824,
+    "y": 1728,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 434.ase",
+   "frame": {
+    "x": 1920,
+    "y": 1728,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 435.ase",
+   "frame": {
+    "x": 2016,
+    "y": 1728,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 436.ase",
+   "frame": {
+    "x": 2112,
+    "y": 1728,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 437.ase",
+   "frame": {
+    "x": 0,
+    "y": 1824,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 438.ase",
+   "frame": {
+    "x": 96,
+    "y": 1824,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 439.ase",
+   "frame": {
+    "x": 192,
+    "y": 1824,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 440.ase",
+   "frame": {
+    "x": 288,
+    "y": 1824,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 441.ase",
+   "frame": {
+    "x": 384,
+    "y": 1824,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 442.ase",
+   "frame": {
+    "x": 480,
+    "y": 1824,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 443.ase",
+   "frame": {
+    "x": 576,
+    "y": 1824,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 444.ase",
+   "frame": {
+    "x": 672,
+    "y": 1824,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 445.ase",
+   "frame": {
+    "x": 768,
+    "y": 1824,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 446.ase",
+   "frame": {
+    "x": 864,
+    "y": 1824,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 447.ase",
+   "frame": {
+    "x": 960,
+    "y": 1824,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 448.ase",
+   "frame": {
+    "x": 1056,
+    "y": 1824,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 449.ase",
+   "frame": {
+    "x": 1152,
+    "y": 1824,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 450.ase",
+   "frame": {
+    "x": 1248,
+    "y": 1824,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 451.ase",
+   "frame": {
+    "x": 1344,
+    "y": 1824,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 452.ase",
+   "frame": {
+    "x": 1440,
+    "y": 1824,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 453.ase",
+   "frame": {
+    "x": 1536,
+    "y": 1824,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 454.ase",
+   "frame": {
+    "x": 1632,
+    "y": 1824,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 455.ase",
+   "frame": {
+    "x": 1728,
+    "y": 1824,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 456.ase",
+   "frame": {
+    "x": 1824,
+    "y": 1824,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 457.ase",
+   "frame": {
+    "x": 1920,
+    "y": 1824,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 458.ase",
+   "frame": {
+    "x": 2016,
+    "y": 1824,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 459.ase",
+   "frame": {
+    "x": 2112,
+    "y": 1824,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 460.ase",
+   "frame": {
+    "x": 0,
+    "y": 1920,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 461.ase",
+   "frame": {
+    "x": 96,
+    "y": 1920,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 462.ase",
+   "frame": {
+    "x": 192,
+    "y": 1920,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 463.ase",
+   "frame": {
+    "x": 288,
+    "y": 1920,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 464.ase",
+   "frame": {
+    "x": 384,
+    "y": 1920,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 465.ase",
+   "frame": {
+    "x": 480,
+    "y": 1920,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 466.ase",
+   "frame": {
+    "x": 576,
+    "y": 1920,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 467.ase",
+   "frame": {
+    "x": 672,
+    "y": 1920,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 468.ase",
+   "frame": {
+    "x": 768,
+    "y": 1920,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 469.ase",
+   "frame": {
+    "x": 864,
+    "y": 1920,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 470.ase",
+   "frame": {
+    "x": 960,
+    "y": 1920,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 471.ase",
+   "frame": {
+    "x": 1056,
+    "y": 1920,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 472.ase",
+   "frame": {
+    "x": 1152,
+    "y": 1920,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 473.ase",
+   "frame": {
+    "x": 1248,
+    "y": 1920,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 474.ase",
+   "frame": {
+    "x": 1344,
+    "y": 1920,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 475.ase",
+   "frame": {
+    "x": 1440,
+    "y": 1920,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 476.ase",
+   "frame": {
+    "x": 1536,
+    "y": 1920,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 477.ase",
+   "frame": {
+    "x": 1632,
+    "y": 1920,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 478.ase",
+   "frame": {
+    "x": 1728,
+    "y": 1920,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 479.ase",
+   "frame": {
+    "x": 1824,
+    "y": 1920,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 480.ase",
+   "frame": {
+    "x": 1920,
+    "y": 1920,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 481.ase",
+   "frame": {
+    "x": 2016,
+    "y": 1920,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 482.ase",
+   "frame": {
+    "x": 2112,
+    "y": 1920,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 483.ase",
+   "frame": {
+    "x": 0,
+    "y": 2016,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 484.ase",
+   "frame": {
+    "x": 96,
+    "y": 2016,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 485.ase",
+   "frame": {
+    "x": 192,
+    "y": 2016,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 486.ase",
+   "frame": {
+    "x": 288,
+    "y": 2016,
+    "w": 96,
+    "h": 96
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 96,
+    "h": 96
+   },
+   "sourceSize": {
+    "w": 96,
+    "h": 96
+   },
+   "duration": 167
+  },
+  {
+   "filename": "witch_3d_96 487.ase",
+   "frame": {
+    "x": 384,
+    "y": 2016,
     "w": 96,
     "h": 96
    },
@@ -3523,109 +10739,397 @@
  ],
  "meta": {
   "app": "libresprite-mcp (LibreSprite-compatible)",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "image": "witch_3d_96_sheet.png",
   "format": "RGBA8888",
   "size": {
-   "w": 1248,
-   "h": 1248
+   "w": 2208,
+   "h": 2112
   },
   "scale": "1",
   "frameTags": [
    {
-    "name": "Idle_S",
+    "name": "Attack_S",
     "from": 0,
+    "to": 5,
+    "direction": "forward"
+   },
+   {
+    "name": "Attack_SW",
+    "from": 6,
     "to": 11,
     "direction": "forward"
    },
    {
-    "name": "Idle_SW",
+    "name": "Attack_W",
     "from": 12,
+    "to": 17,
+    "direction": "forward"
+   },
+   {
+    "name": "Attack_NW",
+    "from": 18,
     "to": 23,
     "direction": "forward"
    },
    {
-    "name": "Idle_W",
+    "name": "Attack_N",
     "from": 24,
+    "to": 29,
+    "direction": "forward"
+   },
+   {
+    "name": "Attack_NE",
+    "from": 30,
     "to": 35,
     "direction": "forward"
    },
    {
-    "name": "Idle_NW",
+    "name": "Attack_E",
     "from": 36,
+    "to": 41,
+    "direction": "forward"
+   },
+   {
+    "name": "Attack_SE",
+    "from": 42,
     "to": 47,
     "direction": "forward"
    },
    {
-    "name": "Idle_N",
+    "name": "Cast_S",
     "from": 48,
-    "to": 59,
+    "to": 55,
     "direction": "forward"
    },
    {
-    "name": "Idle_NE",
-    "from": 60,
+    "name": "Cast_SW",
+    "from": 56,
+    "to": 63,
+    "direction": "forward"
+   },
+   {
+    "name": "Cast_W",
+    "from": 64,
     "to": 71,
     "direction": "forward"
    },
    {
-    "name": "Idle_E",
+    "name": "Cast_NW",
     "from": 72,
-    "to": 83,
+    "to": 79,
     "direction": "forward"
    },
    {
-    "name": "Idle_SE",
-    "from": 84,
+    "name": "Cast_N",
+    "from": 80,
+    "to": 87,
+    "direction": "forward"
+   },
+   {
+    "name": "Cast_NE",
+    "from": 88,
     "to": 95,
     "direction": "forward"
    },
    {
-    "name": "Walk_S",
+    "name": "Cast_E",
     "from": 96,
     "to": 103,
     "direction": "forward"
    },
    {
-    "name": "Walk_SW",
+    "name": "Cast_SE",
     "from": 104,
     "to": 111,
     "direction": "forward"
    },
    {
-    "name": "Walk_W",
+    "name": "Death_S",
     "from": 112,
-    "to": 119,
+    "to": 120,
+    "direction": "forward"
+   },
+   {
+    "name": "Death_SW",
+    "from": 121,
+    "to": 129,
+    "direction": "forward"
+   },
+   {
+    "name": "Death_W",
+    "from": 130,
+    "to": 138,
+    "direction": "forward"
+   },
+   {
+    "name": "Death_NW",
+    "from": 139,
+    "to": 147,
+    "direction": "forward"
+   },
+   {
+    "name": "Death_N",
+    "from": 148,
+    "to": 156,
+    "direction": "forward"
+   },
+   {
+    "name": "Death_NE",
+    "from": 157,
+    "to": 165,
+    "direction": "forward"
+   },
+   {
+    "name": "Death_E",
+    "from": 166,
+    "to": 174,
+    "direction": "forward"
+   },
+   {
+    "name": "Death_SE",
+    "from": 175,
+    "to": 183,
+    "direction": "forward"
+   },
+   {
+    "name": "Hit_S",
+    "from": 184,
+    "to": 187,
+    "direction": "forward"
+   },
+   {
+    "name": "Hit_SW",
+    "from": 188,
+    "to": 191,
+    "direction": "forward"
+   },
+   {
+    "name": "Hit_W",
+    "from": 192,
+    "to": 195,
+    "direction": "forward"
+   },
+   {
+    "name": "Hit_NW",
+    "from": 196,
+    "to": 199,
+    "direction": "forward"
+   },
+   {
+    "name": "Hit_N",
+    "from": 200,
+    "to": 203,
+    "direction": "forward"
+   },
+   {
+    "name": "Hit_NE",
+    "from": 204,
+    "to": 207,
+    "direction": "forward"
+   },
+   {
+    "name": "Hit_E",
+    "from": 208,
+    "to": 211,
+    "direction": "forward"
+   },
+   {
+    "name": "Hit_SE",
+    "from": 212,
+    "to": 215,
+    "direction": "forward"
+   },
+   {
+    "name": "Idle_S",
+    "from": 216,
+    "to": 227,
+    "direction": "forward"
+   },
+   {
+    "name": "Idle_SW",
+    "from": 228,
+    "to": 239,
+    "direction": "forward"
+   },
+   {
+    "name": "Idle_W",
+    "from": 240,
+    "to": 251,
+    "direction": "forward"
+   },
+   {
+    "name": "Idle_NW",
+    "from": 252,
+    "to": 263,
+    "direction": "forward"
+   },
+   {
+    "name": "Idle_N",
+    "from": 264,
+    "to": 275,
+    "direction": "forward"
+   },
+   {
+    "name": "Idle_NE",
+    "from": 276,
+    "to": 287,
+    "direction": "forward"
+   },
+   {
+    "name": "Idle_E",
+    "from": 288,
+    "to": 299,
+    "direction": "forward"
+   },
+   {
+    "name": "Idle_SE",
+    "from": 300,
+    "to": 311,
+    "direction": "forward"
+   },
+   {
+    "name": "Jump_S",
+    "from": 312,
+    "to": 319,
+    "direction": "forward"
+   },
+   {
+    "name": "Jump_SW",
+    "from": 320,
+    "to": 327,
+    "direction": "forward"
+   },
+   {
+    "name": "Jump_W",
+    "from": 328,
+    "to": 335,
+    "direction": "forward"
+   },
+   {
+    "name": "Jump_NW",
+    "from": 336,
+    "to": 343,
+    "direction": "forward"
+   },
+   {
+    "name": "Jump_N",
+    "from": 344,
+    "to": 351,
+    "direction": "forward"
+   },
+   {
+    "name": "Jump_NE",
+    "from": 352,
+    "to": 359,
+    "direction": "forward"
+   },
+   {
+    "name": "Jump_E",
+    "from": 360,
+    "to": 367,
+    "direction": "forward"
+   },
+   {
+    "name": "Jump_SE",
+    "from": 368,
+    "to": 375,
+    "direction": "forward"
+   },
+   {
+    "name": "Run_S",
+    "from": 376,
+    "to": 381,
+    "direction": "forward"
+   },
+   {
+    "name": "Run_SW",
+    "from": 382,
+    "to": 387,
+    "direction": "forward"
+   },
+   {
+    "name": "Run_W",
+    "from": 388,
+    "to": 393,
+    "direction": "forward"
+   },
+   {
+    "name": "Run_NW",
+    "from": 394,
+    "to": 399,
+    "direction": "forward"
+   },
+   {
+    "name": "Run_N",
+    "from": 400,
+    "to": 405,
+    "direction": "forward"
+   },
+   {
+    "name": "Run_NE",
+    "from": 406,
+    "to": 411,
+    "direction": "forward"
+   },
+   {
+    "name": "Run_E",
+    "from": 412,
+    "to": 417,
+    "direction": "forward"
+   },
+   {
+    "name": "Run_SE",
+    "from": 418,
+    "to": 423,
+    "direction": "forward"
+   },
+   {
+    "name": "Walk_S",
+    "from": 424,
+    "to": 431,
+    "direction": "forward"
+   },
+   {
+    "name": "Walk_SW",
+    "from": 432,
+    "to": 439,
+    "direction": "forward"
+   },
+   {
+    "name": "Walk_W",
+    "from": 440,
+    "to": 447,
     "direction": "forward"
    },
    {
     "name": "Walk_NW",
-    "from": 120,
-    "to": 127,
+    "from": 448,
+    "to": 455,
     "direction": "forward"
    },
    {
     "name": "Walk_N",
-    "from": 128,
-    "to": 135,
+    "from": 456,
+    "to": 463,
     "direction": "forward"
    },
    {
     "name": "Walk_NE",
-    "from": 136,
-    "to": 143,
+    "from": 464,
+    "to": 471,
     "direction": "forward"
    },
    {
     "name": "Walk_E",
-    "from": 144,
-    "to": 151,
+    "from": 472,
+    "to": 479,
     "direction": "forward"
    },
    {
     "name": "Walk_SE",
-    "from": 152,
-    "to": 159,
+    "from": 480,
+    "to": 487,
     "direction": "forward"
    }
   ],
@@ -3651,7 +11155,7 @@
       },
       "pivot": {
        "x": 48,
-       "y": 87
+       "y": 86
       }
      }
     ]

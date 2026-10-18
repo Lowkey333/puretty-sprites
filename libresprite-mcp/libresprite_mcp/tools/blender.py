@@ -18,9 +18,12 @@ import subprocess
 import sys
 
 import dotenv
+import httpx
+from mcp.server.mcpserver import Image
 
 from ..core.sprite import reject_traversal
 from .. import mcp
+from . import comfyui
 
 _PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 _CHECKOUT_DIR = os.path.dirname(_PROJECT_DIR)
@@ -315,63 +318,160 @@ def auto_rig_script() -> str:
     return os.path.join(_CHECKOUT_DIR, "integrations", "blender", "auto_rig.py")
 
 
+RIG_ANIMATIONS = ("Idle", "Walk", "Run", "Attack", "Cast", "Hit", "Death", "Jump")
+
+
+def _rig_output(output: str, tag: str) -> dict:
+    """The JSON auto_rig.py printed after tag, or raise RuntimeError with the reason."""
+    for line in reversed(output.splitlines()):
+        if line.startswith("AUTO_RIG_ERROR "):
+            raise RuntimeError(line[len("AUTO_RIG_ERROR "):])
+        if line.startswith(tag + " "):
+            return json.loads(line[len(tag) + 1:])
+    tail = "\n".join(l for l in output.splitlines() if l.strip())[-1500:]
+    raise RuntimeError(f"Blender stopped without a result:\n{tail}")
+
+
+async def _detect_front_pose(script_args: list[str], work: str, timeout: float) -> str:
+    """Render the model's front view and run DWPose on it; returns the file for --keypoints."""
+    async with comfyui._client() as client:
+        base = await comfyui._base_url(client)
+        front = os.path.join(work, "front.png")
+        mapping, failure = None, None
+        for look in ("eevee", "workbench"):  # EEVEE needs a GPU; Workbench always renders
+            code, output = await _run(script_args + [f"--front-render={front}", f"--front-look={look}"], timeout)
+            try:
+                mapping = _rig_output(output, "AUTO_RIG_FRONT")
+                break
+            except RuntimeError as e:
+                failure = e
+        if mapping is None:
+            raise RuntimeError(f"the front render failed: {failure}")
+        pose, skeleton = await comfyui.detect_pose(client, base, front, work)
+    for path in skeleton:
+        os.replace(path, os.path.join(work, "front_pose.png"))
+    keypoints = os.path.join(work, "pose.json")
+    with open(keypoints, "w", encoding="utf-8") as f:
+        json.dump({"pose": pose, "mapping": mapping}, f)
+    return keypoints
+
+
 @mcp.tool()
 async def blender_auto_rig(
     model_path: str,
     output_blend: str,
+    animations: str = "all",
+    pose_detection: str = "auto",
+    weights: str = "auto",
     landmarks: str = "",
+    front_axis: str = "-Y",
     target_faces: int = 40000,
     timeout: int = 900,
-) -> str:
-    """Rig a generated humanoid model and give it Idle and Walk animations.
+) -> list[str | Image]:
+    """Rig a generated humanoid model and give it a set of game animations.
 
     For image-to-3D output (TRELLIS.2, Hunyuan3D, ...): one dense unrigged
-    mesh. Decimates it, places a humanoid skeleton, skins it with
-    anatomy-limited distance weights (Blender's heat weights fail on most
-    generated meshes) and adds in-place "Idle" and "Walk" actions, then
-    saves a .blend ready for blender_render_sprites(animation="all").
-    Suits characters standing in an A- or T-pose; a rough rig meant for
-    sprites, not close-ups (use Mixamo or Rigify for production).
+    mesh standing in an A- or T-pose. Decimates it and finds the joints on
+    its front silhouette (where the legs part, the feet, neck, hands and
+    armpits); with pose_detection, DWPose on ComfyUI also looks at a front
+    render, and its joints are used when it sees a complete skeleton (it
+    does on realistic proportions, rarely on chibi ones). Builds a skeleton
+    with feet and hands, skins it with Blender's heat weights computed on a
+    watertight voxel copy of the mesh (robes and skirts stretch with the
+    legs instead of tearing), and adds in-place animations with the feet
+    kept on the ground: Idle, Walk, Run (loops), Attack, Cast, Hit, Death,
+    Jump (one-shots), 12 fps. Returns a picture of the skeleton over the
+    model; if a joint is off, rig again with landmarks.
+
+    Then render with blender_render_sprites(model_path=<the .blend>,
+    animation="all", frame_step=2). blender_add_animation adds motion
+    capture clips (Mixamo, BVH) to the same rig. A rig for sprites, not
+    close-ups: use Mixamo or Rigify for production.
 
     Args:
         model_path: .glb/.gltf/.fbx/.obj/.blend with the character
-        output_blend: Where to save the rigged .blend
-        landmarks: Optional overrides when a part follows the wrong bone, as
-            height fractions (0 = feet, 1 = top) and width fractions of the
-            height, e.g. "hips=0.25,neck=0.5,shoulder=0.45,leg_x=0.07".
-            Keys: ankle, knee, hips, chest, neck, head_top, shoulder, hand,
-            leg_x, shoulder_x, hand_x
+        output_blend: Where to save the rigged .blend; the skeleton picture
+            and pose files go in a "<name>_rig" folder beside it
+        animations: "all" (default), "none" or a list such as "Idle,Walk,Attack"
+            (from Idle, Walk, Run, Attack, Cast, Hit, Death, Jump)
+        pose_detection: "auto" (use DWPose when ComfyUI runs it, default),
+            "on" (fail without it) or "off" (silhouette only)
+        weights: "auto" (heat, falling back to distance), "heat" or "distance"
+        landmarks: Overrides when a joint is off, as height fractions (0 =
+            feet, 1 = top) and distances from the centre line as fractions of
+            the height, e.g. "hips=0.25,neck=0.5,shoulder_x=0.1". Keys: ankle,
+            knee, hips, chest, neck, head_top, shoulder, hand, leg_x,
+            shoulder_x, hand_x. The result lists the values used.
+        front_axis: Axis the character faces: -Y (Blender's front, default), +Y, +X, -X
         target_faces: Decimate to about this many faces first (0 = keep)
-        timeout: Seconds to wait (default 900)
+        timeout: Seconds to wait per Blender run (default 900)
     """
     error = _check_model(model_path)
     if error:
-        return f"Failed to rig: {error}"
+        return [f"Failed to rig: {error}"]
     if not os.path.isfile(auto_rig_script()):
-        return f"Failed to rig: auto_rig.py not found at {auto_rig_script()}"
+        return [f"Failed to rig: auto_rig.py not found at {auto_rig_script()}"]
     err = reject_traversal(output_blend)
     if err:
-        return err
-    args = ["-b", "--factory-startup", "--python-exit-code", "1", "-P", auto_rig_script(), "--",
-            f"--model={os.path.abspath(model_path)}", f"--out={os.path.abspath(output_blend)}",
-            f"--faces={target_faces}"]
+        return [err]
+    if pose_detection not in ("auto", "on", "off"):
+        return ["Failed to rig: pose_detection must be auto, on or off"]
+    if weights not in ("auto", "heat", "distance"):
+        return ["Failed to rig: weights must be auto, heat or distance"]
+    if front_axis not in ("-Y", "+Y", "+X", "-X"):
+        return ["Failed to rig: front_axis must be -Y, +Y, +X or -X"]
+    wanted = [a.strip() for a in animations.split(",") if a.strip()]
+    if animations.strip().lower() not in ("all", "none"):
+        unknown = [a for a in wanted if a.lower() not in {n.lower() for n in RIG_ANIMATIONS}]
+        if unknown or not wanted:
+            return [f"Failed to rig: unknown animation {', '.join(unknown) if unknown else repr(animations)}; "
+                    f"use {', '.join(RIG_ANIMATIONS)}, all or none"]
+
+    model, out = os.path.abspath(model_path), os.path.abspath(output_blend)
+    work = os.path.splitext(out)[0] + "_rig"
+    os.makedirs(work, exist_ok=True)
+    script = ["-b", "--factory-startup", "--python-exit-code", "1", "-P", auto_rig_script(), "--",
+              f"--model={model}", f"--front-axis={front_axis}"]
+    notes, keypoints = [], None
+    if pose_detection != "off":
+        try:
+            keypoints = await _detect_front_pose(script, work, timeout)
+        except (comfyui.ComfyError, httpx.HTTPError, RuntimeError, OSError, ValueError) as e:
+            if pose_detection == "on":
+                return [f"Failed to rig: pose detection failed: {e}"]
+            reason = str(e).splitlines()[0]
+            notes.append(f"pose detection skipped ({reason})")
+    args = script + [f"--out={out}", f"--faces={target_faces}", f"--weights={weights}",
+                     f"--animations={animations}", f"--skeleton-png={os.path.join(work, 'skeleton.png')}"]
+    if keypoints:
+        args.append(f"--keypoints={keypoints}")
     if landmarks:
         args.append(f"--landmarks={landmarks}")
     code, output = await _run(args, timeout)
-    result = None
-    for line in reversed(output.splitlines()):
-        if line.startswith("AUTO_RIG_RESULT "):
-            result = json.loads(line[len("AUTO_RIG_RESULT "):])
-            break
-    if result is None:
-        tail = "\n".join(l for l in output.splitlines() if l.strip())[-1500:]
-        return f"Failed to rig (exit code {code}):\n{tail}"
+    try:
+        result = _rig_output(output, "AUTO_RIG_RESULT")
+    except RuntimeError as e:
+        return [f"Failed to rig (exit code {code}): {e}"]
+
+    sources = ", ".join(f"{part} from the {how}" for part, how in result["sources"].items())
+    loops = [a for a in result["actions"] if a in result["loops"]]
+    once = [a for a in result["actions"] if a not in result["loops"]]
     marks = ", ".join(f"{k}={v}" for k, v in result["landmarks"].items())
-    return "\n".join([
-        f"Rigged {os.path.basename(model_path)} -> {result['blend']}",
+    lines = [
+        f"Rigged {os.path.basename(model)} -> {result['blend']}",
         f"Mesh {result['faces_before']} -> {result['faces']} faces; weights: {result['weights']}",
-        f"Actions: {', '.join(result['actions'])} at {result['fps']} fps",
-        f"Landmarks used: {marks}",
-        "Check the deformation with blender_render_sprites(..., shading=\"lit\", frame_size=192) and "
-        "adjust landmarks if a part follows the wrong bone.",
-    ])
+        f"Joints: {sources}" + ("; robe or skirt detected" if result["skirt"] else ""),
+        (f"Animations at {result['fps']} fps: " + "; ".join(
+            part for part in (f"loops {', '.join(loops)}" if loops else "",
+                              f"one-shots {', '.join(once)}" if once else "") if part))
+        if result["actions"] else "No animations (animations=\"none\")",
+        f"Landmarks used (pass landmarks=\"key=value,...\" to move a joint): {marks}",
+    ]
+    lines += [f"Note: {n}" for n in notes + result["notes"]]
+    lines += [
+        f"Skeleton over the model (rest pose, front view): {result['skeleton_png']}",
+        f"Next: blender_render_sprites(model_path=\"{result['blend']}\", animation=\"all\", frame_step=2), "
+        "or blender_add_animation to add a motion capture clip first.",
+    ]
+    image = comfyui._preview([result["skeleton_png"]]) if result.get("skeleton_png") else None
+    return ["\n".join(lines), image] if image else ["\n".join(lines)]

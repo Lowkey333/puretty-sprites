@@ -4,4 +4,4 @@ from mcp.server.mcpserver import MCPServer
 
 mcp = MCPServer("libresprite")
 
-__version__ = "0.1.0"
+__version__ = "0.2.0"

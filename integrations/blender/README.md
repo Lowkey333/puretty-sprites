@@ -21,11 +21,15 @@ concept art ──> 3D model ──> rig + animations ──> sprite_render.py �
 - `examples/test_character.blend` is a small rigged figure with `Idle` and `Walk`
   actions, rebuilt by `examples/make_test_character.py`. The tests use it, and it's
   a handy way to try settings.
-- `auto_rig.py` gives a generated (unrigged) humanoid mesh a quick skeleton and
-  in-place `Idle` and `Walk` actions, so image-to-3D output can be animated.
-- The LibreSprite MCP server (`libresprite-mcp/libresprite_mcp/tools/blender.py`)
-  wraps them as four tools: `blender_status`, `blender_list_animations`,
-  `blender_auto_rig` and `blender_render_sprites`.
+- `auto_rig.py` gives a generated (unrigged) humanoid mesh a skeleton with feet
+  and hands, heat-weighted skinning and eight in-place animations (Idle, Walk,
+  Run, Attack, Cast, Hit, Death, Jump), so image-to-3D output can be animated.
+- `retarget.py` puts motion capture (a BVH file, or a Mixamo FBX) on that rig as a
+  new action: real runs, fights, jumps and falls.
+- The LibreSprite MCP server (`libresprite-mcp/libresprite_mcp/tools/blender.py` and
+  `blender_anim.py`) wraps them as five tools: `blender_status`,
+  `blender_list_animations`, `blender_auto_rig`, `blender_add_animation` and
+  `blender_render_sprites`.
 
 Tested with Blender 5.2.1 LTS. Blender is found through `BLENDER_PATH` (the exe or
 its folder), then PATH, then `Program Files\Blender Foundation\Blender *` (newest first).
@@ -46,9 +50,9 @@ that `sprite_render.py` can load directly.
   `comfyui_run_workflow("template:3d_pixal3d_trellis2_image_to_model", overrides={"316.value": True}, images={"122.image": "concept.png"})`.
   On the RTX 5060 Ti it took 6.5 minutes and gave a 700k-triangle model that holds up
   from every side. Nothing leaves your machine. The rigged result is in the repo as
-  `examples/workflow/06_blender/witch_rigged_1k.blend` (and `.glb` with its Idle and
-  Walk animations), with a 1K texture to keep it small; the full 55 MB model isn't
-  committed.
+  `examples/workflow/06_blender/witch_rigged_1k.blend` (and `.glb` with its eight
+  animations), with a 1K texture to keep it small; the full 55 MB model isn't
+  committed. `witch_rigged_skeleton.png` beside it shows where the auto-rig put her joints.
   Concept art for it should be one character, front view, arms away from the body,
   on a plain background (see `examples/workflow/04_concept_for_3d`).
 - **By hand or with the AI in Blender**: blocking out a character from primitives
@@ -62,13 +66,28 @@ apply scale, and put its feet on z=0 before rigging. If it faces another axis, p
 
 ## 2. Rig and animate
 
-- **`auto_rig.py` / the `blender_auto_rig` tool** (the five-minute version, used for
-  the examples): decimates a generated mesh, places a humanoid skeleton, skins it
-  with distance weights limited by anatomy (Blender's automatic heat weights fail on
-  most generated meshes) and adds in-place `Idle` and `Walk` actions. Fine for
-  chibi/stylized characters in an A- or T-pose at sprite sizes. Check the walk with a
-  `lit` render at 192 px; if a part follows the wrong bone, pass `landmarks`
+- **`auto_rig.py` / the `blender_auto_rig` tool** (used for the examples; about 15
+  seconds): for a generated mesh standing in an A- or T-pose. See "The auto-rig"
+  below. Check the result in the skeleton picture it returns, and the motion with
+  a `lit` render at 192 px; if a joint is off, rig again with `landmarks`
   (e.g. `"hips=0.25,neck=0.5"`).
+- **Motion capture on the auto-rig (`retarget.py` / `blender_add_animation`)**: adds
+  real moves to a rig made by `blender_auto_rig`, one action per call, from a BVH
+  file or a Mixamo FBX downloaded "Without Skin". Each bone follows the matching
+  segment of the clip, so a T-pose actor can drive an A-pose chibi; the clip is
+  turned to face -Y, scaled to the character's legs and kept on the floor.
+  `loop=True` cuts the cleanest 0.4-1.6 s cycle (runs, walks); `start_seconds` /
+  `end_seconds` pick a one-shot such as an attack, jump or death out of a longer
+  take. Clips: Mixamo (tick "In Place" for runs) or the
+  [CMU database](http://mocap.cs.cmu.edu) (2500+ clips, usable in commercial
+  products, but don't redistribute the files; BVH at
+  [github.com/Shriinivas/cmubvh](https://github.com/Shriinivas/cmubvh)). Each clip
+  takes about 2 seconds. From a terminal:
+  `blender -b hero.blend -P retarget.py -- --source=run.bvh --name=MocapRun --loop --in-place`.
+  Limits: wrists stay in line with the forearms, feet aren't locked (a one-shot that
+  steps slides the standing foot with `in_place`; pass `in_place=False` to keep the
+  footwork), chibis get small strides because motion scales with leg length, and a
+  clip that ends lying down widens the framing of everything rendered with it.
 - **Mixamo** (free, Adobe account): upload the model as FBX or OBJ, place the
   auto-rig markers, pick animations and download FBX. Tick **In Place** for walks
   and runs; animations that move the character forward walk out of the frame. The
@@ -78,6 +97,47 @@ apply scale, and put its feet on z=0 before rigging. If it faces another axis, p
 
 A `.blend` can hold several actions (Idle, Walk, Attack, ...). `blender_list_animations`
 shows them and `animation="all"` renders every one.
+
+### The auto-rig
+
+1. **Joints from the model itself.** A white silhouette of the front view gives the
+   gap between the legs (followed up to the crotch, or to the hem of a robe), the
+   neck (the first strong narrowing below the head), the hands (the farthest points
+   between legs and neck) and the armpits; the vertices give the ankles (where the
+   foot's front-to-back depth drops to the leg's) and the toes. Knees, elbows and
+   wrists follow from those by proportion.
+2. **A pose detector, when it can see a skeleton.** With ComfyUI running (and the
+   `comfyui_controlnet_aux` nodes), the tool renders the front view with EEVEE and
+   runs DWPose on it. When it finds a complete skeleton that lies on the model, its
+   hips, knees, ankles, shoulders, elbows and wrists replace the estimates. It does
+   on realistic proportions; on the chibi witch it only found an ankle or two, so
+   her joints come from step 1 (the result says which source each limb used).
+3. **Skeleton:** root, hips, chest, head, thighs, shins, feet, upper arms, forearms
+   and hands (`.L` is the character's left, +X).
+4. **Skinning:** Blender's heat weights fail on the original mesh (generated meshes
+   are full of holes and loose pieces), so they are computed on a watertight voxel
+   copy and transferred back, then limited by anatomy with soft edges: legs below
+   the hips, arms out from the shoulders and not behind the body (hair), everything
+   clearly above the neck on the head. A robe or skirt is split between the legs
+   and the hips, so it stretches as the legs move instead of tearing. Distance
+   weights are the fallback (`weights="distance"` forces them).
+5. **Animations,** posed with forward kinematics so the lowest foot stays on the
+   ground (the body bobs by itself): `Idle`, `Walk`, `Run` loop (cyclic, last frame
+   repeats the first); `Attack`, `Cast`, `Hit`, `Death` and `Jump` play once. Arms
+   are lowered from the A-pose, and big heads (chibis, large hats) get toned-down
+   spine and head tilts so the hat doesn't swing wildly. The jump only hops: every
+   animation is framed by one camera, so a high jump would shrink the character in
+   all of them; move the sprite up in the game instead. `animations="Idle,Walk"`
+   picks a subset.
+
+The skeleton picture and the pose detector's files go in a `<name>_rig` folder next to
+the `.blend` (`skeleton.png`, and with pose detection `front.png`, `front_pose.png`,
+`pose.json`). From a terminal:
+
+```
+blender -b --factory-startup -P auto_rig.py -- --model=hero.glb --out=hero.blend
+blender -b --factory-startup -P auto_rig.py -- --model=hero.glb --out=hero.blend --animations=Idle,Walk,Attack --landmarks=hips=0.48
+```
 
 ## 3. Render the frames
 
@@ -220,5 +280,15 @@ add-ons folder, remove the `blender` entry from `.mcp.json`, and run
 `libresprite-mcp/tests/test_blender.py` renders the example character and checks the
 directions, loop trimming, durations and tags, transparent backgrounds, that the head
 and feet line up across directions, that exact-size flat renders contain only the
-material colors with hard edges, and that glTF imports work. It skips when Blender
-isn't found. Run it with `uv run pytest tests/test_blender.py` from `libresprite-mcp`.
+material colors with hard edges, and that glTF imports work.
+`tests/test_auto_rig.py` builds an A-pose figure (and one in a robe) in Blender, rigs
+it and measures the result: joints near where they belong, every bone moving part of
+the mesh, feet on the ground and alternating through the walk, the jump leaving the
+floor, the death ending low and inside the frame, the robe detected, pose keypoints
+taking over the legs and arms. `tests/test_retarget.py` writes BVH clips with known
+motion in Mixamo, CMU and ASF naming and checks the retargeted actions: frame counts,
+legs in opposite phase, facing -Y, no drift in place, the vertical bob kept, the
+planted loop length found, a T-pose lead-in dropped, missing foot bones reported.
+They skip when Blender isn't found. Run them with
+`uv run pytest tests/test_blender.py tests/test_auto_rig.py tests/test_retarget.py`
+from `libresprite-mcp`.

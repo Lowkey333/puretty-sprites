@@ -17,6 +17,7 @@ On an RTX 50-series card, ComfyUI needs a PyTorch build for CUDA 12.8 or newer. 
 | `comfyui_run_workflow` | Run any workflow: an **API-format** file, a regular **UI-format** save (converted with the server's node definitions) or one of ComfyUI's bundled templates as `"template:<name>"`. Change inputs with `{"node_id.input": value}`, upload local images into LoadImage inputs, optionally randomize seeds. Downloads every file it produces (images, animations, 3D meshes). |
 | `comfyui_list_templates` | Search the templates bundled with ComfyUI (e.g. `"3d"`), to run with `comfyui_run_workflow("template:<name>")` |
 | `comfyui_remove_background` | Cut the subject out with the BiRefNet matting model. Much better than the pixelize tools' own background removal on generated art: it also removes floor shadows and background enclosed by the character |
+| `comfyui_detect_pose` | Find a figure's 18 body joints with DWPose (from `comfyui_controlnet_aux`), saved as JSON with a skeleton image. `blender_auto_rig` runs it on a front render of a 3D model to place the joints; it also checks that concept art is in a clean A-pose before image-to-3D. Reliable on realistic proportions, usually incomplete on chibi ones |
 
 All three generating tools return the saved file paths and, by default, a preview image the agent can see.
 
@@ -31,6 +32,7 @@ ComfyUI 0.41 is installed in `C:\AI\ComfyUI` (Python 3.13 venv, PyTorch 2.14.1 w
 | Checkpoint | `checkpoints\zavychromaxl_v80.safetensors` (ZavyChroma XL, the "Digital Artwork" style in Krita) |
 | Pixel art | `loras\pixel-art-xl.safetensors`, `vae\sdxl_vae_fp16_fix.safetensors` |
 | Image to 3D (ComfyUI's own TRELLIS.2 / Pixal3D template) | `diffusion_models\trellis_2_int8_convrot.safetensors`, `pixal3d_int8_convrot.safetensors`, `vae\trellis_2_*_vae_bf16.safetensors`, `clip_vision\dino_v3_L_naf_fp32.safetensors`, `geometry_estimation\moge_2_vitl_normal_fp16.safetensors`, `background_removal\birefnet.safetensors` |
+| Pose detection (downloaded by `comfyui_controlnet_aux` on first use) | `custom_nodes\comfyui_controlnet_aux\ckpts\hr16\DWPose-TorchScript-BatchSize5\dw-ll_ucoco_384_bs5.torchscript.pt` (129 MB). The YOLOX person detector (`hr16\yolox-onnx`) and the OpenPose models (`lllyasviel\Annotators`, 490 MB) came down during testing and aren't used by the tools |
 
 To remove it all, delete `C:\AI\ComfyUI`.
 
@@ -42,7 +44,8 @@ To remove it all, delete `C:\AI\ComfyUI`.
 | BiRefNet cutout | ~5 s per image | Clean alpha, shadows and enclosed background gone |
 | Pixelize to 128 px / 64 px with a 16-color palette | <1 s | 128 px (the LoRA's own 8× scale) is good pixel art; at 64 px faces and outlines fall apart and need redrawing |
 | Krita AI Diffusion refine (strength 0.6) | ~20 s | Swapped the broom for a glowing staff, keeping pose, outfit and style |
-| TRELLIS.2 image to 3D from one concept image | 6.5 min | 700k-triangle textured model, coherent from the front, sides and back |
+| TRELLIS.2 image to 3D from one concept image | 6.5 min (3 min with the models already loaded) | 700k-triangle textured model, coherent from the front, sides and back |
+| DWPose on a front render (first run downloads its two models) | ~3 s | All 18 joints on a realistic adventurer; a few ankles and a wrist on the chibi witch, so her rig uses the silhouette instead |
 
 The workflow examples are in `examples\workflow` (01_generate ... 07_sprite).
 

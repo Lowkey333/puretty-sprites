@@ -1,0 +1,16 @@
+{
+ "sprite": "hero_96.ase",
+ "slices": [
+  {
+   "name": "pivot",
+   "x": 0,
+   "y": 0,
+   "width": 96,
+   "height": 96,
+   "pivot": {
+    "x": 48,
+    "y": 85
+   }
+  }
+ ]
+}

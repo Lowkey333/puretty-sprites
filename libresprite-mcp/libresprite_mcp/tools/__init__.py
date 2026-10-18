@@ -16,6 +16,7 @@ from . import quality
 from . import scene
 from . import pipeline
 from . import blender
+from . import blender_anim
 from . import comfyui
 from . import krita
 from . import libresprite

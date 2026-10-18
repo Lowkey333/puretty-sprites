@@ -63,6 +63,8 @@ class FakeComfy(BaseHTTPRequestHandler):
             # new combo format: ["COMBO", {"options": [...]}]
             self._send(200, {"LoraLoader": {"input": {"required": {
                 "lora_name": ["COMBO", {"options": ["pixel-art-xl.safetensors", "other_sd15.safetensors"]}]}}}})
+        elif url.path == "/object_info/DWPreprocessor" and s.get("dwpose", True):
+            self._send(200, {"DWPreprocessor": {"input": {"required": {"image": ["IMAGE"]}}}})
         elif url.path.startswith("/object_info/"):
             self._send(200, {})
         elif url.path.startswith("/history/"):
@@ -75,6 +77,8 @@ class FakeComfy(BaseHTTPRequestHandler):
         elif url.path == "/view":
             name = q["filename"][0]
             s["views"].append((name, q.get("subfolder", [""])[0], q.get("type", [""])[0]))
+            if name.endswith(".json"):  # SavePoseKpsAsJsonFile output
+                return self._send(200, s["pose"]) if "pose" in s else self._send(404, {"error": "missing"})
             body = b"glTF-fake-mesh" if name.endswith(".glb") else _png()
             self._send(200, body, "application/octet-stream")
         else:
@@ -259,6 +263,58 @@ def test_validation_messages(fake, tmp_path):
     assert "multiples of 8" in run(comfyui.comfyui_generate("x", width=100))[0]
     assert run(comfyui.comfyui_img2img(str(tmp_path / "none.png"), "x"))[0].startswith("File ")
     assert "denoise" in run(comfyui.comfyui_img2img(__file__, "x", denoise=0))[0]
+
+
+def _pose_json(found: dict, size=(96, 128), normalized=False) -> list:
+    flat = []
+    for name in comfyui.POSE_NAMES:
+        x, y = found.get(name, (0, 0))
+        if normalized:
+            x, y = x / size[0], y / size[1]
+        flat += [x, y, 1.0 if name in found else 0.0]
+    return [{"people": [{"pose_keypoints_2d": flat}], "canvas_width": size[0], "canvas_height": size[1]}]
+
+
+def test_detect_pose(fake, tmp_path):
+    src = tmp_path / "hero.png"
+    src.write_bytes(_png(size=(96, 128)))
+    found = {name: (10 + 4 * i, 5 + 6 * i) for i, name in enumerate(comfyui.POSE_NAMES) if "ear" not in name}
+    fake["pose"] = _pose_json(found)
+    result = run(comfyui.comfyui_detect_pose(str(src), output_dir=str(tmp_path / "out")))
+    text = result[0]
+    assert text.startswith("DWPose found 16 of 18 body keypoints in hero.png"), text
+    assert "  neck: x=14, y=11" in text and "Not found: right ear, left ear" in text
+    assert isinstance(result[1], Image)
+    graph = fake["prompts"][-1]
+    assert graph["2"]["class_type"] == "DWPreprocessor"
+    assert graph["2"]["inputs"]["bbox_detector"] == "None" and graph["2"]["inputs"]["image"] == ["1", 0]
+    assert graph["3"]["inputs"]["pose_kps"] == ["2", 1]
+    prefix = graph["3"]["inputs"]["filename_prefix"]
+    assert (f"{prefix}_00001.json", "", "output") in fake["views"]
+    with open(tmp_path / "out" / "hero_pose.json", encoding="utf-8") as f:
+        assert json.load(f) == fake["pose"]
+    assert (tmp_path / "out" / f"{prefix}_skeleton_00001_.png").is_file()
+
+
+def test_detect_pose_failures(fake, tmp_path):
+    src = tmp_path / "a.png"
+    src.write_bytes(_png())
+    fake["pose"] = [{"people": [], "canvas_width": 64, "canvas_height": 64}]
+    assert run(comfyui.comfyui_detect_pose(str(src), output_dir=str(tmp_path)))[0].startswith(
+        "DWPose found no figure in a.png")
+    fake["dwpose"] = False
+    out = run(comfyui.comfyui_detect_pose(str(src), output_dir=str(tmp_path)))[0]
+    assert out.startswith("Failed to detect a pose: ComfyUI has no DWPose node") and "controlnet_aux" in out
+
+
+def test_pose_points_pixels_and_normalized():
+    found = {"neck": (48, 30), "left ankle": (60, 120)}
+    for normalized in (False, True):
+        points = {p[0]: p[1:] for p in comfyui.pose_points(_pose_json(found, normalized=normalized))}
+        assert points["neck"] == pytest.approx((48, 30, 1.0))
+        assert points["left ankle"] == pytest.approx((60, 120, 1.0))
+        assert points["nose"][2] == 0
+    assert comfyui.pose_points({"people": []}) == []
 
 
 def test_not_running(monkeypatch):

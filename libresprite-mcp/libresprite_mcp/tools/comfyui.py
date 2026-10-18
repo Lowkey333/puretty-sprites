@@ -96,6 +96,40 @@ def remove_background_graph(image_name: str, model: str, filename_prefix: str) -
     }
 
 
+POSE_NAMES = ("nose", "neck", "right shoulder", "right elbow", "right wrist", "left shoulder", "left elbow",
+              "left wrist", "right hip", "right knee", "right ankle", "left hip", "left knee", "left ankle",
+              "right eye", "left eye", "right ear", "left ear")
+
+
+def pose_graph(image_name: str, filename_prefix: str, resolution: int = 768) -> dict:
+    # Without a person detector DWPose looks at the whole image: the detector
+    # misses chibi and stylized figures, and the images here hold one figure.
+    # SavePoseKpsAsJsonFile writes <prefix>_00001.json to the output folder
+    # but doesn't report it, so the prefix must be unique.
+    return {
+        "1": {"class_type": "LoadImage", "inputs": {"image": image_name}},
+        "2": {"class_type": "DWPreprocessor", "inputs": {
+            "image": ["1", 0], "detect_hand": "disable", "detect_body": "enable", "detect_face": "disable",
+            "resolution": resolution, "bbox_detector": "None",
+            "pose_estimator": "dw-ll_ucoco_384_bs5.torchscript.pt", "scale_stick_for_xinsr_cn": "disable"}},
+        "3": {"class_type": "SavePoseKpsAsJsonFile", "inputs": {"pose_kps": ["2", 1], "filename_prefix": filename_prefix}},
+        "4": {"class_type": "SaveImage", "inputs": {"images": ["2", 0], "filename_prefix": filename_prefix + "_skeleton"}},
+    }
+
+
+def pose_points(pose) -> list[tuple[str, float, float, float]]:
+    """(name, x, y, confidence) of the first figure in DWPose/OpenPose JSON, in pixels."""
+    frame = pose[0] if isinstance(pose, list) else pose
+    people = frame.get("people") or []
+    if not people:
+        return []
+    flat = people[0].get("pose_keypoints_2d") or []
+    values = [v for i, v in enumerate(flat) if i % 3 != 2]
+    scale = (frame.get("canvas_width", 1), frame.get("canvas_height", 1)) if values and max(values) <= 1 else (1, 1)
+    return [(name, flat[3 * i] * scale[0], flat[3 * i + 1] * scale[1], flat[3 * i + 2])
+            for i, name in enumerate(POSE_NAMES) if 3 * i + 2 < len(flat)]
+
+
 def _add_lora(graph: dict, lora: str, strength: float) -> None:
     graph["12"] = {"class_type": "LoraLoader", "inputs": {
         "lora_name": lora, "strength_model": strength, "strength_clip": strength,
@@ -284,6 +318,24 @@ def _result(lines: list[str], paths: list[str], preview: bool) -> list[str | Ima
 
 def _client() -> httpx.AsyncClient:
     return httpx.AsyncClient(timeout=httpx.Timeout(60.0, connect=5.0))
+
+
+async def detect_pose(client, base: str, image_path: str, folder: str, resolution: int = 768,
+                      timeout: float = 300) -> tuple[Any, list[str]]:
+    """DWPose on one image: (keypoint JSON as ComfyUI wrote it, skeleton image paths in folder)."""
+    r = await client.get(f"{base}/object_info/DWPreprocessor")
+    if r.status_code != 200 or "DWPreprocessor" not in r.json():
+        raise ComfyError("ComfyUI has no DWPose node: install the comfyui_controlnet_aux custom nodes "
+                         "(https://github.com/Fannovel16/comfyui_controlnet_aux)")
+    name = await _upload(client, base, image_path)
+    prefix = "puretty_pose_" + uuid.uuid4().hex[:12]
+    prompt_id, entry = await _run_graph(client, base, pose_graph(name, prefix, resolution), timeout)
+    os.makedirs(folder, exist_ok=True)
+    skeleton = await _download_outputs(client, base, entry, folder)
+    r = await client.get(f"{base}/view", params={"filename": f"{prefix}_00001.json", "type": "output"})
+    if r.status_code != 200:
+        raise ComfyError(f"DWPose ran (prompt {prompt_id}) but its keypoint file wasn't found")
+    return r.json(), skeleton
 
 
 # ------------------------------------------------------------ tools
@@ -528,6 +580,60 @@ async def comfyui_remove_background(
     if not paths:
         return [f"Failed to remove background: ComfyUI finished prompt {prompt_id} without saving images"]
     return _result([f"Cut out {os.path.basename(image_path)} with {models[0]}"], paths, preview)
+
+
+@mcp.tool()
+async def comfyui_detect_pose(
+    image_path: str,
+    output_dir: str = "",
+    resolution: int = 768,
+    preview: bool = True,
+    timeout: int = 300,
+) -> list[str | Image]:
+    """Find a figure's body joints in an image with DWPose on ComfyUI.
+
+    Lists the 18 OpenPose body keypoints (nose, neck, shoulders, elbows,
+    wrists, hips, knees, ankles, eyes, ears) in pixels with a confidence,
+    and saves them as JSON with a skeleton image. blender_auto_rig runs this
+    on a front render of a 3D model to place the joints; it's also a quick
+    check that concept art is in a clean A-pose before image-to-3D.
+    Accurate on realistic proportions; chibi and big-headed figures often
+    come back incomplete (missing shoulders or hips).
+    Needs the comfyui_controlnet_aux custom nodes (DWPreprocessor).
+
+    Args:
+        image_path: Image with one figure (PNG/JPG)
+        output_dir: Folder for <name>_pose.json and the skeleton image
+            (default COMFYUI_OUTPUT_DIR or ./comfyui_output)
+        resolution: Detection resolution (default 768)
+        preview: Also return the skeleton image (default True)
+        timeout: Seconds to wait (default 300)
+    """
+    image_path = os.path.abspath(image_path)
+    if not os.path.isfile(image_path):
+        return [f"File {image_path} not found"]
+    folder = _output_dir(output_dir)
+    async with _client() as client:
+        try:
+            base = await _base_url(client)
+            pose, skeleton = await detect_pose(client, base, image_path, folder, resolution, timeout)
+        except (ComfyError, httpx.HTTPError, ValueError, OSError) as e:
+            return [f"Failed to detect a pose: {e}"]
+    json_path = _unique(folder, os.path.splitext(os.path.basename(image_path))[0] + "_pose.json")
+    with open(json_path, "w", encoding="utf-8") as f:
+        json.dump(pose, f)
+    points = pose_points(pose)
+    found = [p for p in points if p[3] > 0]
+    if not found:
+        lines = [f"DWPose found no figure in {os.path.basename(image_path)}"]
+    else:
+        lines = [f"DWPose found {len(found)} of 18 body keypoints in {os.path.basename(image_path)} (pixels):"]
+        lines += [f"  {name}: x={x:.0f}, y={y:.0f}" + ("" if c >= 0.99 else f" (confidence {c:.2f})")
+                  for name, x, y, c in found]
+        missing = [name for name, _, _, c in points if c <= 0]
+        if missing:
+            lines.append("Not found: " + ", ".join(missing))
+    return _result(lines, [json_path] + skeleton, preview and bool(skeleton))
 
 
 @mcp.tool()

@@ -9,12 +9,12 @@ Short answers: yes to both, with ComfyUI and Krita for ideas and painting, Blend
 
 | Folder | What it is |
 |---|---|
-| [`libresprite-mcp/`](libresprite-mcp/README.md) | The MCP server: aseprite-mcp ported to LibreSprite, plus pixelization, Blender, ComfyUI and Krita tools (141 in all) |
-| [`integrations/blender/`](integrations/blender/README.md) | `sprite_render.py`: a 3D character to sprite frames from 1-16 directions; a rigged test character |
+| [`libresprite-mcp/`](libresprite-mcp/README.md) | The MCP server: aseprite-mcp ported to LibreSprite, plus pixelization, Blender, ComfyUI and Krita tools (143 in all) |
+| [`integrations/blender/`](integrations/blender/README.md) | `sprite_render.py`: a 3D character to sprite frames from 1-16 directions; `auto_rig.py`: a skeleton and eight animations for a generated model; `retarget.py`: motion capture onto that rig; a rigged test character |
 | [`integrations/krita/`](integrations/krita/README.md) | Puretty Bridge (a Krita plugin the agent talks to) and the Krita AI Diffusion setup |
 | [`integrations/comfyui/`](integrations/comfyui/README.md) | ComfyUI workflow templates and model recommendations for pixel art |
 | `tools/` | Portable LibreSprite 1.3 (the editor) and a nightly build (used for scripting) |
-| `examples/` | A witch drawn with the tools, and a walk cycle rendered from Blender |
+| `examples/` | A witch drawn with the tools, a walk cycle rendered from Blender, the full concept-to-sprite run (`workflow/`) and a second auto-rigged character (`hero/`) |
 
 <table>
   <tr>
@@ -33,6 +33,17 @@ Short answers: yes to both, with ComfyUI and Krita for ideas and painting, Blend
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td align="center"><img src="examples/workflow/07_sprite/witch_3d_96_all_animations.gif" width="430" alt="The witch's eight animations: idle, walk, run, jump, attack, cast, hit, death"></td>
+    <td align="center"><img src="examples/hero/hero_96_all_animations.gif" width="430" alt="The same eight animations on a realistically proportioned adventurer"></td>
+  </tr>
+  <tr>
+    <td align="center"><sub>Eight animations from <code>blender_auto_rig</code>, joints found on the silhouette</sub></td>
+    <td align="center"><sub>The same on a second character, joints found by DWPose</sub></td>
+  </tr>
+</table>
+
 ## Quick start
 
 1. Start Claude Code in this folder. It reads `.mcp.json` and asks to enable two servers: **libresprite** (this project) and **blender** (MCP for Blender, see below). Approve them.
@@ -42,7 +53,7 @@ Short answers: yes to both, with ComfyUI and Krita for ideas and painting, Blend
    - "Pixelize concept.png to 64 px tall with 16 colors and put it on a new layer of hero.ase."
 3. Open results in LibreSprite: `tools\libresprite\libresprite.exe`, or ask the agent to `open_in_libresprite`. Close a file in LibreSprite before asking the agent to change it again; LibreSprite doesn't reload files edited outside it.
 
-The server needs [uv](https://docs.astral.sh/uv/) (installed) and nothing else. `cd libresprite-mcp && uv run pytest` runs its 139 tests (the live Krita and ComfyUI ones skip when those aren't running).
+The server needs [uv](https://docs.astral.sh/uv/) (installed) and nothing else. `cd libresprite-mcp && uv run pytest` runs its 158 tests (the live Krita and ComfyUI ones skip when those aren't running).
 
 ### From a fresh clone
 
@@ -78,16 +89,19 @@ Set up and tested here: ComfyUI in `C:\AI\ComfyUI` on the RTX 5060 Ti (start it 
 
 ```
 concept art ──> 3D model ──────────> rig + animations ──> blender_render_sprites ──> frames_to_sprite ──> LibreSprite
- (Krita /       (MCP for Blender's   (Mixamo, Rigify)     (1-16 directions,         (one palette,       (clean up,
-  ComfyUI)       generate_3d, or                           ortho camera, toon        tags, durations,    export sheet
-                 Hunyuan3D in ComfyUI)                     shading, manifest)        ground pivot)       + JSON)
+ (Krita /       (MCP for Blender's   (blender_auto_rig,   (1-16 directions,          (one palette,        (clean up,
+  ComfyUI)       generate_3d, or      mocap, Mixamo,       ortho camera, toon         tags, durations,     export sheet
+                 TRELLIS.2 in         Rigify)              shading, manifest)         ground pivot)        + JSON)
+                 ComfyUI)
 ```
 
 `examples/walk_from_blender.ase` came out of that chain in two tool calls: the test character's Walk in 4 directions at 48 px (48 frames, rendered in about 10 s), pixelized with a shared 16-color palette, outlined, tagged `Walk_S/W/N/E`, with the ground pivot stored for the engine.
 
 ![Walk cycle rendered from Blender](examples/walk_from_blender_sheet.png)
 
-Tested here end to end, all local: a 3D-style concept from ComfyUI, **TRELLIS.2** in ComfyUI turned it into a textured model in 6.5 minutes (it holds up from every side), `blender_auto_rig` gave it a skeleton with Idle and Walk in 8 seconds, `blender_render_sprites` rendered 8 directions in 15 seconds, and `frames_to_sprite` built `examples/workflow/07_sprite/witch_3d_96.ase` (96 px, 160 frames, 16 tags). The **MCP for Blender** add-on is installed and enabled, and the agent drove your open Blender through it (`look`, `get_scene_info`, `execute_blender_code`). Its `generate_3d` tool needs a paid API key; TRELLIS.2 in ComfyUI is the free local alternative. The weak link is rigging: the auto-rig is fine at sprite sizes, Mixamo is better for production. See [integrations/blender/README.md](integrations/blender/README.md).
+Tested here end to end, all local: a 3D-style concept from ComfyUI, **TRELLIS.2** in ComfyUI turned it into a textured model in 6.5 minutes (it holds up from every side), `blender_auto_rig` gave it a skeleton with feet and hands and eight animations in 15 seconds, `blender_render_sprites` rendered them from 8 directions in 45 seconds, and `frames_to_sprite` built `examples/workflow/07_sprite/witch_3d_96.ase` (96 px, 488 frames, 64 tags such as `Walk_SE` and `Attack_S`). The **MCP for Blender** add-on is installed and enabled, and the agent drove your open Blender through it (`look`, `get_scene_info`, `execute_blender_code`). Its `generate_3d` tool needs a paid API key; TRELLIS.2 in ComfyUI is the free local alternative.
+
+The auto-rig finds the joints on the model's silhouette, and with ComfyUI running it also asks DWPose about a front render: the realistic adventurer in `examples/hero` got its joints from DWPose, while the chibi witch (DWPose can't make sense of her proportions) got them from the silhouette. It skins with Blender's heat weights computed on a watertight copy of the mesh, so the witch's robe stretches with her legs instead of tearing, and poses the animations so the feet stay on the ground: Idle, Walk, Run, Attack, Cast, Hit, Death and Jump. It returns a picture of the skeleton over the model; `landmarks` moves a joint that's off. `blender_add_animation` then puts real motion capture on the same rig, from Mixamo or the free CMU database: on the adventurer a boxing combo, a roundhouse kick and a backward fall came through cleanly, about 2 seconds per clip. For hand-animated or production-quality motion, Mixamo's own rig and Rigify are still better. See [integrations/blender/README.md](integrations/blender/README.md).
 
 ## What this set-up changed on this computer
 
